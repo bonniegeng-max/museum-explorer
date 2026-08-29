@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Exhibit Record / 展品记录",
+  "description": "museum-explorer data 库的展品记录格式。data/{museum}.json 结构为 { \"museum\": \"...\", \"updated\": \"YYYY-MM-DD\", \"exhibits\": [ ...本schema ] }",
+  "type": "object",
+  "required": ["id", "name", "museum", "era", "sources", "verification"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "唯一ID：{museum-slug}-{slug}，如 tesla-museum-coil"
+    },
+    "name": { "type": "string", "description": "展品中文名" },
+    "name_en": { "type": "string", "description": "原名/英文名" },
+    "museum": { "type": "string", "description": "博物馆全名" },
+    "exhibition": { "type": "string", "description": "所属展览（常设展填'常设展'）" },
+    "era": { "type": "string", "description": "年代，如 '1891年' / '商代晚期' / '约公元前4世纪'" },
+    "material": { "type": "string", "description": "材质/工艺，如 '铜/鎏金' / '橡木与铜线'" },
+    "location": { "type": "string", "description": "展厅/展柜位置（易变信息，标注获取日期）" },
+    "story": { "type": "string", "description": "背景故事，80-150字，必须可溯源" },
+    "highlights": {
+      "type": "array", "maxItems": 3,
+      "items": { "type": "string" },
+      "description": "现场看点：看哪个细节、为什么值得驻足"
+    },
+    "pattern_elements": {
+      "type": "array", "minItems": 1, "maxItems": 5,
+      "items": { "type": "string" },
+      "description": "可提取的视觉纹样元素（用于印章中心纹样），如 '饕餮纹兽面' / '线圈螺旋' / '缠枝莲'"
+    },
+    "stamp_color": {
+      "type": "string", "enum": ["cinnabar", "indigo", "ochre", "ink"],
+      "description": "印章色号代号，见 stamp-design-guide.md 色板；缺省 cinnabar"
+    },
+    "sources": {
+      "type": "array", "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string", "description": "来源名称" },
+          "url": { "type": "string", "description": "URL，实体图录/现场可留空" },
+          "type": { "enum": ["official", "catalog", "media", "book", "wiki", "other"] }
+        }
+      }
+    },
+    "verification": {
+      "enum": ["verified", "pending", "conflict"],
+      "description": "verified=双源一致；pending=仅单源或未核；conflict=来源冲突（须在story中并列说明）"
+    },
+    "collected_at": { "type": "string", "description": "入库日期 YYYY-MM-DD" },
+    "visits": {
+      "type": "array",
+      "description": "观展打卡记录（跨次累积）",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string", "description": "YYYY-MM-DD" },
+          "checked": { "type": "boolean", "description": "是否亲眼看到" },
+          "photo": { "type": "string", "description": "照片文件相对路径（可空）" },
+          "feeling": { "type": "string", "description": "一句话感受（手帐素材）" }
+        }
+      }
+    }
+  }
+}

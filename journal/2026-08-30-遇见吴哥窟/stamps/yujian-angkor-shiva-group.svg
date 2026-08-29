@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="湿婆组像印章">
+<defs>
+  <path id="at-st-05" d="M 26,100 A 74,74 0 0 1 174,100"/>
+  <path id="ab-st-05" d="M 26,100 A 74,74 0 0 0 174,100"/>
+  <filter id="rgh-st-05"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/></filter>
+  <filter id="mot-st-05"><feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="3" seed="11" result="nz"/><feColorMatrix in="nz" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.4 -0.15" result="an"/><feComposite in="SourceGraphic" in2="an" operator="in"/></filter>
+</defs>
+<g filter="url(#rgh-st-05) url(#mot-st-05)" fill="#2F4B6E">
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#2F4B6E" stroke-width="4"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#2F4B6E" stroke-width="1.2"/>
+  <text font-size="15" letter-spacing="2" fill="#2F4B6E" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#at-st-05" startOffset="50%" text-anchor="middle">湿婆组像</textPath></text>
+  <text font-size="9.5" letter-spacing="1.5" fill="#2F4B6E" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#ab-st-05" startOffset="50%" text-anchor="middle">石雕巅峰 · 吴哥</textPath></text>
+  <g transform="translate(44,44)" style="color:#2F4B6E;fill:currentColor;stroke:currentColor"><g fill="none" stroke-width="5" stroke-linecap="round" stroke="currentColor">
+          <path d="M56 18 v58"/>
+          <path d="M40 40 q0 14 16 14 q16 0 16 -14"/>
+          <path d="M40 40 v-10 M72 40 v-10"/>
+          <path d="M30 88 q10 -7 20 0 q10 -7 20 0 q10 -7 20 0" stroke-width="4"/>
+          <path d="M36 96 q10 -7 20 0 q10 -7 20 0" stroke-width="3.5"/></g></g>
+</g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="塞建陀印章">
+<defs>
+  <path id="at-st-03" d="M 26,100 A 74,74 0 0 1 174,100"/>
+  <path id="ab-st-03" d="M 26,100 A 74,74 0 0 0 174,100"/>
+  <filter id="rgh-st-03"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/></filter>
+  <filter id="mot-st-03"><feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="3" seed="11" result="nz"/><feColorMatrix in="nz" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.4 -0.15" result="an"/><feComposite in="SourceGraphic" in2="an" operator="in"/></filter>
+</defs>
+<g filter="url(#rgh-st-03) url(#mot-st-03)" fill="#2F4B6E">
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#2F4B6E" stroke-width="4"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#2F4B6E" stroke-width="1.2"/>
+  <text font-size="15" letter-spacing="2" fill="#2F4B6E" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#at-st-03" startOffset="50%" text-anchor="middle">塞建陀</textPath></text>
+  <text font-size="9.5" letter-spacing="1.5" fill="#2F4B6E" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#ab-st-03" startOffset="50%" text-anchor="middle">战神 · 骑孔雀</textPath></text>
+  <g transform="translate(44,44)" style="color:#2F4B6E;fill:currentColor;stroke:currentColor"><g fill="none" stroke-width="4.5" stroke-linecap="round" stroke="currentColor">
+          <path d="M56 80 v-22"/>
+          <path d="M56 58 L28 36 M56 58 L40 28 M56 58 L56 24 M56 58 L72 28 M56 58 L84 36"/>
+          <circle cx="28" cy="36" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="40" cy="28" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="56" cy="24" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="72" cy="28" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="84" cy="36" r="3.5" fill="currentColor" stroke="none"/>
+          <circle cx="56" cy="66" r="5"/>
+          <path d="M49 88 a7 7 0 0 0 14 0"/></g></g>
+</g>
+</svg>

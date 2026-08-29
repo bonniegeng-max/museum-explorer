@@ -1,0 +1,223 @@
+{
+  "museum": "遇见博物馆·北京798馆",
+  "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展（2026-05-01 ~ 2026-08-30）",
+  "updated": "2026-08-30",
+  "exhibits": [
+    {
+      "id": "yujian-angkor-jayavarman7",
+      "name": "阇耶跋摩七世头像",
+      "name_en": "Head of Jayavarman VII",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥王朝巴戎寺时期（约12世纪末-13世纪初）",
+      "material": "砂岩",
+      "location": "鼎盛吴哥单元（2026-08-30 记录，闭展日）",
+      "story": "展览最重磅展品。阇耶跋摩七世是吴哥王朝最传奇的君主，改宗大乘佛教后营建巴戎寺。头像以写实手法呈现他中晚年的面貌：宽额长耳、双眼半闭、唇间浮现标志性微笑——'高棉的微笑'即源于巴戎寺五十余座四面佛塔的同类表情，体现'佛王合一'的王权理念。",
+      "highlights": [
+        "双眼半闭的冥想神态，与早期君王造像的威严睁目对比",
+        "唇间微笑的弧度——'高棉的微笑'的标准样本",
+        "宽额长耳的写实面容，辨认晚年特征"
+      ],
+      "pattern_elements": ["闭目低垂的眼睑弧线", "唇间微笑弧", "宝冠轮廓", "长耳垂"],
+      "stamp_color": "ochre",
+      "sources": [
+        { "name": "北京日报客户端《来798'遇见吴哥窟'》2026-04-30", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" },
+        { "name": "腾讯新闻《一展看尽高棉文明千年风华》2026-05-01", "url": "https://news.qq.com/rain/a/20260501A05VSG00", "type": "media" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": true, "photo": "", "feeling": "闭着眼微笑了八百年，好像什么都不必再说。" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-harihara",
+      "name": "诃里诃罗石立像",
+      "name_en": "Harihara (Vishnu-Shiva combined figure)",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥早期（神牛寺风格，9世纪前后）",
+      "material": "砂岩",
+      "location": "溯源高棉单元（2026-08-30 记录）",
+      "story": "Hari=毗湿奴，Hara=湿婆：一尊身体、左右两半分属两位主神的合体像。身体右侧湿婆（苦行发髻、第三只眼），左侧毗湿奴（华丽宝冠）。出土于'高棉文明摇篮'罗洛士遗址群——其旁的古城 Hariharalaya 意即'诃里诃罗之城'，早期国王以此表达两派合一的王权完整。双臂残断并非神话情节，而是砂石悬空构件千年风化与战乱损伤；像身背后那道弧形石拱正是古代工匠的'防断'措施。",
+      "highlights": [
+        "左右两侧发式差异：一侧苦行髻、一侧宝冠",
+        "背后弧形石拱——古人给手臂加的'保险'",
+        "罗洛士出土印记：吴哥早期的国宝"
+      ],
+      "pattern_elements": ["中分双面轮廓", "左冠右髻对比", "第三只眼圆点", "背后弧形石拱"],
+      "stamp_color": "cinnabar",
+      "sources": [
+        { "name": "腾讯新闻（展览现场报道，含此像图片）2026-05-01", "url": "https://news.qq.com/rain/a/20260501A05VSG00", "type": "media" },
+        { "name": "观展实录·行中问答（豆包对话，2026-08-30）", "type": "other" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": true, "photo": "", "feeling": "原来断臂不是神话，是时间本身。" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-skanda",
+      "name": "塞建陀石坐像",
+      "name_en": "Skanda (Kartikeya) seated on peacock",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥时期（具体年代展签未及记录，待核）",
+      "material": "砂岩",
+      "location": "造像展区（2026-08-30 记录）",
+      "story": "塞建陀（Skanda，又译室建陀）是湿婆与雪山神女帕尔瓦蒂的长子、天界军队总司令、战神，象头神伽内什的哥哥。识别标志是坐骑孔雀——端坐于孔雀背上、尾羽舒展。在柬埔寨他还象征军事胜利与王权强盛，国王出征前祭拜。冷知识：佛教韦驮菩萨的原型就是他。手上兵器多因千年破损佚失。",
+      "highlights": [
+        "孔雀坐骑与舒展的尾羽——一眼识别",
+        "高棉造像的简化：一张脸双臂（印度本土有六头十二臂版本）",
+        "兵器缺失的持物位"
+      ],
+      "pattern_elements": ["开屏孔雀扇面", "翎眼圆点", "端坐人形轮廓"],
+      "stamp_color": "indigo",
+      "sources": [
+        { "name": "观展实录·行中问答（豆包对话，2026-08-30）", "type": "other" },
+        { "name": "北京日报展览总述（122件展品清单之内）", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" }
+      ],
+      "verification": "pending",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": true, "photo": "", "feeling": "骑孔雀的少年战神，回来一查，韦驮菩萨竟是他。" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-mukhalinga",
+      "name": "穆卡林加",
+      "name_en": "Mukhalinga (linga with face of Shiva)",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥时期（具体年代展签未及记录，待核）",
+      "material": "砂岩",
+      "location": "造像展区（2026-08-30 记录）",
+      "story": "Mukha=面孔，Linga=林伽：带湿婆面孔的林伽石柱。完整石柱分三段——底部方形基座对应梵天（创造）、中部八角柱身对应毗湿奴（守护）、顶端圆鼓刻湿婆面容（毁灭与再生），一根石头即整个宇宙。吴哥'神王信仰'(Devaraja)的载体：国王通过供奉它获得湿婆神性。展出常为上端残段，乍看像帽子或印章——第一眼误会正是它的谈资。",
+      "highlights": [
+        "顶端圆鼓段的湿婆面孔浮雕",
+        "辨认三段结构（若展出完整件）",
+        "与光面普通林伽对比着看"
+      ],
+      "pattern_elements": ["三段石柱", "顶端圆鼓面容", "八角柱截面"],
+      "stamp_color": "ochre",
+      "sources": [
+        { "name": "观展实录·行中问答（豆包对话，2026-08-30）", "type": "other" },
+        { "name": "百度百科'高棉文明'词条（展品清单之内）", "url": "https://baike.baidu.com/item/%E9%AB%98%E6%A3%89%E6%96%87%E6%98%8E/67724109", "type": "wiki" }
+      ],
+      "verification": "pending",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": true, "photo": "", "feeling": "第一眼以为是顶帽子，听完才懂一根石柱就是整个宇宙。" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-shiva-group",
+      "name": "湿婆与雪山女神、恒河女神组像",
+      "name_en": "Shiva with Parvati and Ganga",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥时期",
+      "material": "砂岩",
+      "location": "造像展区（2026-08-30 记录）",
+      "story": "湿婆与妻子帕尔瓦蒂（雪山女神）、恒河女神的组像，被多家媒体称为高棉石雕艺术巅峰之作。帕尔瓦蒂是湿婆家庭叙事的中心：战神塞建陀与象头神伽内什都是她的儿子；她的愤怒化身迦梨在'湿婆斩安达卡'神话里吸尽魔血。恒河女神则连着'湿婆头顶恒河'的传说。",
+      "highlights": [
+        "三尊的动态呼应与主从关系",
+        "衣纹与身姿的高棉式柔美",
+        "辨认持物：三叉戟与雪山意象"
+      ],
+      "pattern_elements": ["三叉戟", "山形与水波", "并立三尊剪影"],
+      "stamp_color": "indigo",
+      "sources": [
+        { "name": "北京日报客户端 2026-04-30", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" },
+        { "name": "搜狐《千年高棉文明赴京之约》", "url": "https://m.sohu.com/a/1017263524_120706465", "type": "media" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": false, "photo": "", "feeling": "" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-ganesha",
+      "name": "象头神伽内什石坐像",
+      "name_en": "Ganesha",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥时期",
+      "material": "砂岩",
+      "location": "造像展区（位置待复检）",
+      "story": "湿婆与帕尔瓦蒂的次子、塞建陀的弟弟，象头人身，智慧与破除障碍之神，坐骑是老鼠。在印度教里任何大事开始前都要先敬他'扫清障碍'——高棉工匠手下的大象鼻常呈优雅的S形卷曲。",
+      "highlights": [
+        "象鼻的S形卷曲线条",
+        "与坐骑老鼠的比例反差",
+        "断牙传说：抄写《摩诃婆罗多》磨秃的一根牙"
+      ],
+      "pattern_elements": ["象头轮廓", "S形卷鼻", "圆耳"],
+      "stamp_color": "cinnabar",
+      "sources": [
+        { "name": "百度百科'高棉文明'词条（展品清单内）", "url": "https://baike.baidu.com/item/%E9%AB%98%E6%A3%89%E6%96%87%E6%98%8E/67724109", "type": "wiki" },
+        { "name": "北京日报展览总述", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": false, "photo": "", "feeling": "" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-naga-buddha",
+      "name": "那伽护佛石坐像",
+      "name_en": "Buddha sheltered by Naga",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥时期（佛教造像单元）",
+      "material": "砂岩",
+      "location": "佛教造像展区（位置待复检）",
+      "story": "佛陀禅坐于盘起的那伽（多头蛇王）之上，蛇首张开如伞护住头顶——表现暴雨中蛇王护法的经典场景。这件题材是高棉从婆罗门教转向大乘佛教的注脚：那伽本是印度教神话生物，在佛教叙事里成了护法者。",
+      "highlights": [
+        "蛇冠的扇形展开与中央主头",
+        "佛陀禅定印与低垂眼睑",
+        "对比印度教区造像：'神王'到'佛王'的过渡"
+      ],
+      "pattern_elements": ["扇形蛇冠", "多头轮廓", "禅定人形"],
+      "stamp_color": "indigo",
+      "sources": [
+        { "name": "百度百科'高棉文明'词条（展品清单内）", "url": "https://baike.baidu.com/item/%E9%AB%98%E6%A3%89%E6%96%87%E6%98%8E/67724109", "type": "wiki" },
+        { "name": "北京日报展览总述", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": false, "photo": "", "feeling": "" }
+      ]
+    },
+    {
+      "id": "yujian-angkor-prajnaparamita",
+      "name": "十一面般若佛母铜造像",
+      "name_en": "Eleven-faced Prajnaparamita",
+      "museum": "遇见博物馆·北京798馆（借展：柬埔寨国家博物馆）",
+      "exhibition": "遇见吴哥窟——柬埔寨国家博物馆文物特展",
+      "era": "吴哥王朝（大乘佛教时期）",
+      "material": "青铜",
+      "location": "佛教造像展区（位置待复检）",
+      "story": "般若佛母是'智慧波罗蜜多'的人格化——吴哥王朝佛教艺术的代表作之一。十一面分层排列如塔，对应菩萨观照的一切方位。与砂岩造像的粗粝不同，铜造像的细节在灯光下另有一层温润。",
+      "highlights": [
+        "十一面的层塔式排布",
+        "铜质与砂岩造像的材质对比",
+        "阇耶跋摩七世时代的信仰转向实证"
+      ],
+      "pattern_elements": ["层塔面容排列", "圆点面庞", "金字塔轮廓"],
+      "stamp_color": "ink",
+      "sources": [
+        { "name": "搜狐《千年高棉文明赴京之约》", "url": "https://m.sohu.com/a/1017263524_120706465", "type": "media" },
+        { "name": "北京日报展览总述", "url": "https://news.bjd.com.cn/2026/04/30/11720401.shtml", "type": "media" }
+      ],
+      "verification": "verified",
+      "collected_at": "2026-08-30",
+      "visits": [
+        { "date": "2026-08-30", "checked": false, "photo": "", "feeling": "" }
+      ]
+    }
+  ]
+}

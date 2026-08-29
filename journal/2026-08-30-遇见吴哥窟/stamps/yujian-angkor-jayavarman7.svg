@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="180" height="180" role="img" aria-label="高棉的微笑印章">
+<defs>
+  <path id="at-st-01" d="M 26,100 A 74,74 0 0 1 174,100"/>
+  <path id="ab-st-01" d="M 26,100 A 74,74 0 0 0 174,100"/>
+  <filter id="rgh-st-01"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2.2"/></filter>
+  <filter id="mot-st-01"><feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="3" seed="11" result="nz"/><feColorMatrix in="nz" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.4 -0.15" result="an"/><feComposite in="SourceGraphic" in2="an" operator="in"/></filter>
+</defs>
+<g filter="url(#rgh-st-01) url(#mot-st-01)" fill="#9C5333">
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#9C5333" stroke-width="4"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#9C5333" stroke-width="1.2"/>
+  <text font-size="15" letter-spacing="2" fill="#9C5333" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#at-st-01" startOffset="50%" text-anchor="middle">高棉的微笑</textPath></text>
+  <text font-size="9.5" letter-spacing="1.5" fill="#9C5333" font-family="'Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#ab-st-01" startOffset="50%" text-anchor="middle">巴戎寺 · 12世纪</textPath></text>
+  <g transform="translate(44,44)" style="color:#9C5333;fill:currentColor;stroke:currentColor"><g fill="none" stroke-width="5" stroke-linecap="round" stroke="currentColor">
+          <ellipse cx="56" cy="60" rx="25" ry="29"/>
+          <path d="M42 55 q6 5 12 0"/><path d="M58 55 q6 5 12 0"/>
+          <path d="M47 75 q9 6 18 0"/>
+          <path d="M43 33 q13 -9 26 0"/><path d="M50 33 v-7 M62 33 v-7" stroke-width="4"/></g></g>
+</g>
+</svg>

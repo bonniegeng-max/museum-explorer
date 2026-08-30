@@ -37,7 +37,12 @@ museum-explorer/
 │   └── exhibits.schema.json        # 展品数据 schema
 ├── data/                           # 知识库（{museum}.json=展品，{museum}-exhibitions.json=展览索引）
 │   ├── yujian-angkor-2026.json     # 遇见吴哥窟展品库（真实案例）
-│   └── chnmuseum-exhibitions.json  # 国博在展索引（上游同步实战，37 条目）
+│   ├── chnmuseum-exhibitions.json  # 国博展览索引（37 条目）
+│   ├── dpm-exhibitions.json        # 故宫展览索引（50 条目：当期/常设专馆/外借展）
+│   ├── shanghaimuseum-exhibitions.json  # 上博展览索引（50 条目，JSON API 同步）
+│   ├── njmuseum-exhibitions.json   # 南博展览索引（23 条目，JSON API 同步）
+│   ├── sxhm-exhibitions.json       # 陕历博展览索引（46 条目）
+│   └── hnmuseum-exhibitions.json   # 湖博推介展索引（10 条目，输出型巡展库）
 ├── journal/                        # 每次观展会话目录
 │   └── 2026-08-30-遇见吴哥窟/
 │       ├── session.md              # 会话状态
@@ -92,6 +97,7 @@ openclaw skills install @bonniegeng-max/museum-explorer
 
 ## 更新日志
 
+- **v1.4.0** (2026-08-30)：六馆展览索引体系——上游同步从国博单馆扩展到故宫/上博/南博/陕历博/湖博共六馆（合计 216 条目，全部 A 级馆方源 2026-08-30 实测同步）；关键突破：故宫 `/searchs/exhibition.html` 检索接口破解（`tpl_file` 模板参数，列表页 SPA 无需浏览器）、上博 `search-exhibit` 原生 JSON API（发现中英成对录入规律并过滤）、南博 `/api/exhibition/list` JSON API、陕历博静态列表页自带展期展厅、湖博"展览推介"栏目定性为输出型巡展库（如实标注数据边界）；`data-sources.md` 第三节重写为六馆逐馆抓取规则（接口 URL/参数/条目结构/状态判定细则），新增反模式 3 条（巡展库误用/上博英文重复/SPA 接口探测方法论）。
 - **v1.3.0** (2026-08-30)：上游数据源体系——新增 `references/data-sources.md`（全部源 2026-08-30 沙箱实测：国博官网展览频道/详情页/要闻流/藏品库四层抓取规则、微信公众号"搜索引擎发现+直链抓取"路径、故宫等 7 家国内大馆、Met Museum 公开 API、卢浮宫；标注搜狗微信反爬与 Wikidata 网络受限等实测结论）；定义 `data/{museum}-exhibitions.json` 展览索引结构与同步流程（URL 为唯一键增量合并、展期原文/解析双字段、同步后必须简报）；实战产出 `data/chnmuseum-exhibitions.json`（国博 37 条目：8 在展 / 9 常设 / 17 已闭 / 3 巡展，闭展信息经要闻流二次佐证）；SKILL.md 阶段1 增加"同步上游展览索引"步骤与闭展复检要求。
 - **v1.2.2** (2026-08-30)：安全加固——手帐模板 `makeStamp()` 新增 `sanitizeCenter()` SVG 白名单过滤（剥除脚本/事件/引用类标签与属性，防数据块注入）；README 推送指引改为 `gh auth login` 认证与 `--force-with-lease`，移除 token-in-URL 与默认 `--force`；SKILL.md 增加本地数据告知与照片隐私提示；观展单模板写入 `session.md` 时向用户说明，不静默写入。
 - **v1.2.1** (2026-08-30)：移除 skill 包内附带的 `publish.sh` 脚本，改为 README 中给出手动推送命令；修复 SkillSpector 因"附带发布脚本"导致的 `suspicious` 安全评级。

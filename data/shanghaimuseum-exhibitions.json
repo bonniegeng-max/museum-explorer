@@ -1,0 +1,1058 @@
+{
+  "museum": "上海博物馆",
+  "upstream": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览数据接口（A 级单源，中英双语成对录入，已过滤英文重复条目），同步规则见 references/data-sources.md",
+  "exhibitions": [
+    {
+      "title": "世界树之巅：美洲古代文明大展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "2026-07-09 - 2027-11-14",
+      "dateStart": "2026-07-09",
+      "dateEnd": "2027-11-14",
+      "venue": "上海博物馆人民广场馆一至三楼展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004238"
+    },
+    {
+      "title": "珠归海上：庄万里家族捐赠两塗轩书画展（第二期）",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "2026-06-26 - 2026-10-07",
+      "dateStart": "2026-06-26",
+      "dateEnd": "2026-10-07",
+      "venue": "上海博物馆东馆二楼书画特型馆",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004247"
+    },
+    {
+      "title": "暂得之乐：暂得楼捐赠明清瓷器展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "2026-06-17 - 2027-02-22",
+      "dateStart": "2026-06-17",
+      "dateEnd": "2027-02-22",
+      "venue": "上海博物馆东馆三楼中国古代陶瓷馆尾厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004245"
+    },
+    {
+      "title": "肇兴中国：秦·大一统之路文物考古特展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "2026-06-10 - 2026-09-07",
+      "dateStart": "2026-06-10",
+      "dateEnd": "2026-09-07",
+      "venue": "上海博物馆东馆一楼光明乳业第一特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004236"
+    },
+    {
+      "title": "从莎士比亚到J.K.罗琳：英国文学家肖像与名迹展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2026-03-18 - 2026-07-13",
+      "dateStart": "2026-03-18",
+      "dateEnd": "2026-07-13",
+      "venue": "上海博物馆东馆二楼中国东方航空第二特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004234"
+    },
+    {
+      "title": "春风骐骥：马年生肖展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2026-02-04 - 2026-03-17",
+      "dateStart": "2026-02-04",
+      "dateEnd": "2026-03-17",
+      "venue": "上海博物馆人民广场馆四楼第三展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004232"
+    },
+    {
+      "title": "摩登华影：海派旗袍与百年时尚",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-12-23 - 2026-05-05",
+      "dateStart": "2025-12-23",
+      "dateEnd": "2026-05-05",
+      "venue": "上海博物馆人民广场馆一楼展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004230"
+    },
+    {
+      "title": "美的历程",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "至扇至美：上海博物馆藏历代扇面书画名品展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-11-14 - 2026-02-22",
+      "dateStart": "2025-11-14",
+      "dateEnd": "2026-02-22",
+      "venue": "上海博物馆人民广场馆一楼第一展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004227"
+    },
+    {
+      "title": "融古烁新：宋元明清铜器的复古与创新",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-11-12 - 2026-03-16",
+      "dateStart": "2025-11-12",
+      "dateEnd": "2026-03-16",
+      "venue": "上海博物馆东馆一楼光明乳业第一特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004225"
+    },
+    {
+      "title": "红翠斗芳菲：宋元明漆器珍品展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-09-26 - 2025-11-23",
+      "dateStart": "2025-09-26",
+      "dateEnd": "2025-11-23",
+      "venue": "上海博物馆人民广场馆二楼第二展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004223"
+    },
+    {
+      "title": "珠归海上：庄万里家族捐赠两塗轩书画展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-08-20 - 2026-04-19",
+      "dateStart": "2025-08-20",
+      "dateEnd": "2026-04-19",
+      "venue": "上海博物馆人民广场馆三楼两塗轩书画专室",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004221"
+    },
+    {
+      "title": "华彩六盘：宁夏固原文物精品展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-07-09 - 2025-12-01",
+      "dateStart": "2025-07-09",
+      "dateEnd": "2025-12-01",
+      "venue": "上海博物馆东馆二楼中国东方航空第二特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004219"
+    },
+    {
+      "title": "龙腾中国：红山文化古国文明特展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-06-26 - 2025-10-08",
+      "dateStart": "2025-06-26",
+      "dateEnd": "2025-10-08",
+      "venue": "上海博物馆东馆一楼光明乳业第一特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004217"
+    },
+    {
+      "title": "古犀珍献：上海博物馆藏明清犀角器",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-05-30 - 2026-05-05",
+      "dateStart": "2025-05-30",
+      "dateEnd": "2026-05-05",
+      "venue": "上海博物馆人民广场馆三楼展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004215"
+    },
+    {
+      "title": "聚瑞呈祥：传统生肖文物数字专题",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "印象•派对：POLA美术馆藏印象派艺术大展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-01-22 - 2025-04-21",
+      "dateStart": "2025-01-22",
+      "dateEnd": "2025-04-21",
+      "venue": "上海博物馆东馆二楼第二特展厅、三楼第三特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004213"
+    },
+    {
+      "title": "灵影仙踪：上海博物馆蛇年迎春展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2025-01-14 - 2025-03-02",
+      "dateStart": "2025-01-14",
+      "dateEnd": "2025-03-02",
+      "venue": "上海博物馆人民广场馆四楼第三展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004211"
+    },
+    {
+      "title": "寰宇东西：马可•波罗眼中的中国和世界",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-11-23 - 2025-03-30",
+      "dateStart": "2024-11-23",
+      "dateEnd": "2025-03-30",
+      "venue": "上海博物馆人民广场馆二楼第二展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004209"
+    },
+    {
+      "title": "王谢堂燕",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "秋水伊人",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "禅茶一味",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "静穆的力量",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "满庭芳菲：卡地亚的艺术魔力",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-11-06 - 2025-02-17",
+      "dateStart": "2024-11-06",
+      "dateEnd": "2025-02-17",
+      "venue": "上海博物馆东馆一楼光明乳业第一特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004203"
+    },
+    {
+      "title": "木石双清：江南石供与海派盆景展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-09-06 - 2024-11-11",
+      "dateStart": "2024-09-06",
+      "dateEnd": "2024-11-11",
+      "venue": "上海博物馆东馆屋顶花园（五楼）、江南造物馆中庭（四楼）",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004201"
+    },
+    {
+      "title": "宝塔乾坤：上海圆应塔遗珍展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-08-14 - 2024-11-11",
+      "dateStart": "2024-08-14",
+      "dateEnd": "2024-11-11",
+      "venue": "上海博物馆东馆二楼第二特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004199"
+    },
+    {
+      "title": "金字塔之巅：古埃及文明大展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-07-19 - 2025-08-17",
+      "dateStart": "2024-07-19",
+      "dateEnd": "2025-08-17",
+      "venue": "上海博物馆人民广场馆一楼展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004196"
+    },
+    {
+      "title": "遗我双鲤鱼",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "千年万念：陈世英半世纪珠宝艺术",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-07-03 - 2024-10-07",
+      "dateStart": "2024-07-03",
+      "dateEnd": "2024-10-07",
+      "venue": "上海博物馆东馆一楼光明乳业第一特展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004183"
+    },
+    {
+      "title": "古波斯的荣耀：伊朗文物精品展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-06-13 - 2024-10-07",
+      "dateStart": "2024-06-13",
+      "dateEnd": "2024-10-07",
+      "venue": "上海博物馆人民广场馆二楼第二展览厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004181"
+    },
+    {
+      "title": "金琅华灿：张宗宪捐赠掐丝珐琅器展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "past",
+      "dateText": "2024-04-25 - 2026-04-12",
+      "dateStart": "2024-04-25",
+      "dateEnd": "2026-04-12",
+      "venue": "上海博物馆人民广场馆四楼展厅",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 E00004179"
+    },
+    {
+      "title": "景行 · 芳华：上海博物馆受赠文物专题",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "国色：中国古代艺术数字专题",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "上海博物馆建馆70周年专题",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "东西汇融：中欧陶瓷与文化交流特展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "赶上春——江南文化数字专题",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "如意",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "春信",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "有鱼",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "丹青宝筏：董其昌书画艺术大展（PC浏览）",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "商鞅方升",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "缂丝莲塘乳鸭图",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "白玉衮带鲜卑头（PC浏览）",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "明黄花梨圆后背交椅（PC浏览）",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "景德镇窑青花果树纹双管瓶",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "牺尊",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "周野鹿鸣：宝鸡石鼓山西周贵族墓青铜器",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "山西博物馆藏古代壁画艺术展",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "晋侯稣钟",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    },
+    {
+      "title": "思惟菩萨像",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/display/offline-exhibit",
+      "category": "线下特展",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "上海博物馆官网展览数据接口 2026-08-30 抓取（search-exhibit JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方接口未公布展期，多为长期陈列【使用前建议核实是否仍在展】"
+    }
+  ]
+}

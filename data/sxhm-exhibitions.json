@@ -1,0 +1,933 @@
+{
+  "museum": "陕西历史博物馆",
+  "upstream": "https://www.sxhm.com/Temporary.html",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网临时展览栏目（A 级单源，全 5 页），同步规则见 references/data-sources.md",
+  "exhibitions": [
+    {
+      "title": "锦绣华裳——巴州博物馆藏古代服饰精品展",
+      "url": "https://www.sxhm.com/Temporary/detail/1018653.html",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月6日至10月11日",
+      "dateStart": "2026-07-06",
+      "dateEnd": "2026-10-11",
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "列表页标题超长截断，已按详情页补全"
+    },
+    {
+      "title": "“寻找‘最初的中国’——秦晋豫‘十四...",
+      "url": "https://www.sxhm.com/Temporary/detail/18589.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026年2月15日至5月14日",
+      "dateStart": "2026-02-15",
+      "dateEnd": "2026-05-14",
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "“面见唐人——陕西唐代面食文化展”正...",
+      "url": "https://www.sxhm.com/Temporary/detail/18597.html",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年2月14日",
+      "dateStart": "2026-02-14",
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "官网仅公布开展日期未公布结束日期，按在展处理【待核实闭展时间】"
+    },
+    {
+      "title": "“绚烂与永恒：墓室壁画艺术特展”正式...",
+      "url": "https://www.sxhm.com/Temporary/detail/18598.html",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年2月9日",
+      "dateStart": "2026-02-09",
+      "dateEnd": null,
+      "venue": "陕西历史博物馆秦汉馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "官网仅公布开展日期未公布结束日期，按在展处理【待核实闭展时间】"
+    },
+    {
+      "title": "吉金·中国——中国青铜文明的兴起与繁...",
+      "url": "https://www.sxhm.com/Temporary/detail/17993.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025年5月18日——11月17日",
+      "dateStart": "2025-05-18",
+      "dateEnd": "2025-11-17",
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "军旅艺术家刘朱梁书画作品捐赠展",
+      "url": "https://www.sxhm.com/Temporary/detail/17923.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025年4月2日至4月17日",
+      "dateStart": "2025-04-02",
+      "dateEnd": "2025-04-17",
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "列表页标题超长截断，已按详情页补全"
+    },
+    {
+      "title": "对话宇文邕——北周武帝孝陵科技考古成...",
+      "url": "https://www.sxhm.com/Temporary/detail/17810.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2024年11月26日至2025年5...",
+      "dateStart": "2024-11-26",
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "总体国家安全观·创新引领10周年",
+      "url": "https://www.sxhm.com/Temporary/detail/17809.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2024年4月12日至4月30日",
+      "dateStart": "2024-04-12",
+      "dateEnd": "2024-04-30",
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "腾飞天宇的中国龙——陕西国宝系列特展",
+      "url": "https://www.sxhm.com/Temporary/detail/17808.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2024年1月30日至11月4日",
+      "dateStart": "2024-01-30",
+      "dateEnd": "2024-11-04",
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "列表页标题超长截断，已按详情页补全"
+    },
+    {
+      "title": "壁上丹青 盛唐气象——唐韩休墓壁画考...",
+      "url": "https://www.sxhm.com/Temporary/detail/17861.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2024年1月31日至今",
+      "dateStart": "2024-01-31",
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "保护传承 融通致远——陕西省石窟寺保...",
+      "url": "https://www.sxhm.com/Temporary/detail/17807.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "胜利的鼓舞者——陕西历史博物馆藏抗美...",
+      "url": "https://www.sxhm.com/Temporary/detail/15680.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "盛世唐音——唐代乐舞文化展",
+      "url": "https://www.sxhm.com/Temporary/detail/15470.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "消失的文明---印加人和帝国四方之地",
+      "url": "https://www.sxhm.com/Temporary/detail/16389.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "时光刻度——陕西历史博物馆藏搪瓷中的...",
+      "url": "https://www.sxhm.com/Temporary/detail/12145.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "玉韫·九州——中国早期文明间的碰撞与...",
+      "url": "https://www.sxhm.com/Temporary/detail/15815.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2023年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "黄土 黄河 黄帝——黄河流域生态文明...",
+      "url": "https://www.sxhm.com/Temporary/detail/1479.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2022年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "大国之威行天下——陕西国宝系列特展之...",
+      "url": "https://www.sxhm.com/Temporary/detail/17801.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2022年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "晋祠——中国祠庙园林之典范",
+      "url": "https://www.sxhm.com/Temporary/detail/1433.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2021年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "体育强 中国强——中国共产党领导的体...",
+      "url": "https://www.sxhm.com/Temporary/detail/1431.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2021年11月25日至2022年5...",
+      "dateStart": "2021-11-25",
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "传承体育精神·共襄体育盛会——十四运...",
+      "url": "https://www.sxhm.com/Temporary/detail/1429.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2021年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅天井",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "为人民谋幸福·为民族谋复兴——陕西省...",
+      "url": "https://www.sxhm.com/Temporary/detail/1426.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2021年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六、七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "岁月如歌 砥砺前行——陕西历史博物馆...",
+      "url": "https://www.sxhm.com/Temporary/detail/1424.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2021年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "秦风颂廉——陕西廉政文物展",
+      "url": "https://www.sxhm.com/Temporary/detail/391.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "文物战线抗击新冠肺炎疫情主题展",
+      "url": "https://www.sxhm.com/Temporary/detail/394.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "古芮新迹——陕西澄城刘家洼东周遗址考...",
+      "url": "https://www.sxhm.com/Temporary/detail/395.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "唐天子的茶——陕西国宝系列特展之法门...",
+      "url": "https://www.sxhm.com/Temporary/detail/1645.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "彩陶·中华——中国五千年前的融合与统...",
+      "url": "https://www.sxhm.com/Temporary/detail/15816.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "与天久长——周秦汉唐文化与艺术特展",
+      "url": "https://www.sxhm.com/Temporary/detail/396.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2020年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "唐蕃古道——七省区精品文物联展",
+      "url": "https://www.sxhm.com/Temporary/detail/405.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "光影赞歌——世界遗产摄影艺术展",
+      "url": "https://www.sxhm.com/Temporary/detail/406.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "丝路追梦——陕西国宝系列特展之骑驼胡...",
+      "url": "https://www.sxhm.com/Temporary/detail/519.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆国宝厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "剑瓷龙泉——中国龙泉青瓷•宝剑传承与...",
+      "url": "https://www.sxhm.com/Temporary/detail/520.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "慕道•臻艺——平山郁夫的丝路艺术世界",
+      "url": "https://www.sxhm.com/Temporary/detail/523.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第七展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "黑龙江鱼皮、兽皮、桦树皮历史文化展",
+      "url": "https://www.sxhm.com/Temporary/detail/524.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2019年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "波澜壮阔•三秦华章——陕西改革开放4...",
+      "url": "https://www.sxhm.com/Temporary/detail/527.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "红旗飘飘——革命将士珍藏文物资料展",
+      "url": "https://www.sxhm.com/Temporary/detail/532.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "不忘初心 砥砺前行——陕西历史博物馆...",
+      "url": "https://www.sxhm.com/Temporary/detail/534.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "石刻万物·穿越千年——青田石雕艺术...",
+      "url": "https://www.sxhm.com/Temporary/detail/539.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "茜茜公主与匈牙利——17-19世纪匈...",
+      "url": "https://www.sxhm.com/Temporary/detail/1646.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "唐懿德太子墓阙楼仪仗图特展",
+      "url": "https://www.sxhm.com/Temporary/detail/1649.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2018年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆东展中厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "长安丝路东西风",
+      "url": "https://www.sxhm.com/Temporary/detail/1652.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2017年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第五展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "砥砺奋进的五年——喜迎党的十九大 追...",
+      "url": "https://www.sxhm.com/Temporary/detail/1877.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2017年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "岁月如歌——陕西民国以来经济社会发展...",
+      "url": "https://www.sxhm.com/Temporary/detail/1878.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2017年",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆第六展厅",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网临时展览栏目 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "陕西古代文明（基本陈列）",
+      "url": "https://www.sxhm.com/basic_display.html",
+      "category": "基本陈列（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网常设展览栏目 2026-08-30 确认"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "大唐遗宝——何家村窖藏出土文物展",
+      "url": "https://www.sxhm.com/basic_display.html",
+      "category": "基本陈列（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "陕西历史博物馆",
+      "verification": "pending",
+      "sources": [
+        "陕西历史博物馆官网常设展览栏目 2026-08-30 确认"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    }
+  ]
+}

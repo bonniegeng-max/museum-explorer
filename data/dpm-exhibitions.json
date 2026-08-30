@@ -1,0 +1,1033 @@
+{
+  "museum": "故宫博物院",
+  "upstream": "https://www.dpm.org.cn/shows.html",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览检索接口（A 级单源），同步规则见 references/data-sources.md",
+  "exhibitions": [
+    {
+      "title": "诚慎仁术——清宫医药文物展",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/134",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "永和宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "仁风景从——故宫博物院藏捐献文物展",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/690",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "景仁宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "玉出昆冈——清代宫廷和田玉文化特展",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/682",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2025/01/07 - 2026/10/18",
+      "dateStart": "2025-01-07",
+      "dateEnd": "2026-10-18",
+      "venue": "斋宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "腾跃古今——马文化数字艺术展",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/688",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "大高玄殿数字馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "大圣遗音——古琴文化展（第二期）",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/168",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "钟粹宫展厅（古琴馆）",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "庆隆尊养——崇庆皇太后专题展",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/14",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "寿康宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "天子万年——清代万寿庆典展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "乾清宫西庑",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "珍宝馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/83",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "宁寿宫",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "钟表馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/23",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "奉先殿",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "陶瓷馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/140",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "武英殿",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "武备馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/68",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "箭亭",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "雕塑馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/16",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "慈宁宫",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "家具馆",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/75",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "南大库",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "太和殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=29821366E8E940D3B70EE68D4C339B39",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "外朝中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中和殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=1806F896258E44829E1089242BEF18BC",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "外朝中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "保和殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=F7C07857D6CC40F0AC635D344AEA2061",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "外朝中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "乾清宫",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=06D239223C9142D68C8F310F8E234115",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "交泰殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=6E84226563AB41FCAA2134A566AEAEFA",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "坤宁宫",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=124E7D879F224366A13976BA7ECF674E",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷中路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "咸若馆",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=36572A6979B74EFA95A98274FCC0CC36",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷外西路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "寿康宫",
+      "url": "https://gugongzhanlan.dpm.org.cn/exhibitShare/13",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷外西路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "养心殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=D6C8299A3FDF4F4689D5514EF25D8A71",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷西路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "储秀宫",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=4029E662673D4B568E489EACD7A455CA",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷西路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "皇极殿",
+      "url": "https://show.vizen.cn/static/pano.html?panoId=50A2E1CB2FBD49FBAEA398F523613A61",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "内廷外东路",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "天工匠心——宁寿宫花园的历史与守护",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "专馆（常设）",
+      "status": "permanent",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "宁寿宫花园遂初堂",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "神骏——故宫书画艺术中的马世界",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/690005491",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026/04/22 - 2026/06/21",
+      "dateStart": "2026-04-22",
+      "dateEnd": "2026-06-21",
+      "venue": "文华殿书画馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期已过但馆方\"正在展出\"接口仍在展示，疑似待下架【以现场为准】"
+    },
+    {
+      "title": "“万法归一：萨迦寺历史文化与艺术”展",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/690005490",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026/02/10 - 2026/05/10",
+      "dateStart": "2026-02-10",
+      "dateEnd": "2026-05-10",
+      "venue": "午门正殿及东雁翅楼展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期已过但馆方\"正在展出\"接口仍在展示，疑似待下架【以现场为准】"
+    },
+    {
+      "title": "“来！听色彩讲故事”故宫教育体验展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025/12/31 - 2026/03/31",
+      "dateStart": "2025-12-31",
+      "dateEnd": "2026-03-31",
+      "venue": "故宫教育中心",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期已过但馆方\"正在展出\"接口仍在展示，疑似待下架【以现场为准】"
+    },
+    {
+      "title": "九重之下——故宫造办处旧址考古成果展",
+      "url": "https://ggzl.dpm.org.cn/app/api/app/exhibitShare/690005488",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025/11/04 - 2026/03/01",
+      "dateStart": "2025-11-04",
+      "dateEnd": "2026-03-01",
+      "venue": "永寿宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期已过但馆方\"正在展出\"接口仍在展示，疑似待下架【以现场为准】"
+    },
+    {
+      "title": "时盛岁新-从“文化遗产”到“美好生活”影像志",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025/11/25 - 2026/02/24",
+      "dateStart": "2025-11-25",
+      "dateEnd": "2026-02-24",
+      "venue": "延禧宫展厅",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取（/searchs/exhibition.html）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期已过但馆方\"正在展出\"接口仍在展示，疑似待下架【以现场为准】"
+    },
+    {
+      "title": "贝氏收藏展（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/15 - 2026/10/15",
+      "dateStart": "2026-07-15",
+      "dateEnd": "2026-10-15",
+      "venue": "苏州博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "古文字与中华文明（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/10 - 2026/10/11",
+      "dateStart": "2026-07-10",
+      "dateEnd": "2026-10-11",
+      "venue": "中国国家博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "高山仰止 墨染千秋——八大山人诞辰400周年特展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/10 - 2026/10/10",
+      "dateStart": "2026-07-10",
+      "dateEnd": "2026-10-10",
+      "venue": "江西省博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "敕几清晏——康雍乾三朝皇帝与词臣书画特展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/09 - 2026/10/07",
+      "dateStart": "2026-07-09",
+      "dateEnd": "2026-10-07",
+      "venue": "嘉德艺术中心",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "国采：故宫藏清代帝后服饰展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/07 - 2026/10/07",
+      "dateStart": "2026-07-07",
+      "dateEnd": "2026-10-07",
+      "venue": "上海世博会博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "天问——中华文明宇宙观（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/01 - 2026/10/20",
+      "dateStart": "2026-07-01",
+      "dateEnd": "2026-10-20",
+      "venue": "安徽博物院",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "宝硕流光——故宫博物院藏乾隆时期文物特展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/05/18 - 2026/11/18",
+      "dateStart": "2026-05-18",
+      "dateEnd": "2026-11-18",
+      "venue": "上海市奉贤区博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "天子宸章——乾隆皇帝的宝玺",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/02/10 - 2026/10/11",
+      "dateStart": "2026-02-10",
+      "dateEnd": "2026-10-11",
+      "venue": "鼓浪屿故宫文物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "鼓浪屿故宫文物常设展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/11/30 - 2027/11/30",
+      "dateStart": "2025-11-30",
+      "dateEnd": "2027-11-30",
+      "venue": "鼓浪屿故宫文物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "世遗华章 文化焕新——明代文化主题展（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/07/04 - 2026/08/03",
+      "dateStart": "2026-07-04",
+      "dateEnd": "2026-08-03",
+      "venue": "北京市昌平区明十三陵管理中心",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "苏州织造（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/03/24 - 2026/06/21",
+      "dateStart": "2026-03-24",
+      "dateEnd": "2026-06-21",
+      "venue": "苏州博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "恽寿平书画沉浸式ai艺术展（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/02/14 - 2026/05/18",
+      "dateStart": "2026-02-14",
+      "dateEnd": "2026-05-18",
+      "venue": "扬州中国大运河博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "大漆三章——宋元明清髹饰艺术（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/02/10 - 2026/05/10",
+      "dateStart": "2026-02-10",
+      "dateEnd": "2026-05-10",
+      "venue": "苏州博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "奇骥奔腾——马年科技文化特展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/02/17 - 2026/08/16",
+      "dateStart": "2026-02-17",
+      "dateEnd": "2026-08-16",
+      "venue": "上海科技馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "韵古溢彩——故宫博物院藏宫廷珐琅器精品展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2026/02/03 - 2026/06/03",
+      "dateStart": "2026-02-03",
+      "dateEnd": "2026-06-03",
+      "venue": "广安市博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "弘道之行——孔子周游列国展（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/11/25 - 2026/03/08",
+      "dateStart": "2025-11-25",
+      "dateEnd": "2026-03-08",
+      "venue": "河南博物院",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "重庆故事——抗战故宫文物南迁暨民间文物迁移特展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/11/21 - 2026/02/24",
+      "dateStart": "2025-11-21",
+      "dateEnd": "2026-02-24",
+      "venue": "重庆中国三峡博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "镕古烁新：宋元明清铜器的复古与创新（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/11/12 - 2026/03/16",
+      "dateStart": "2025-11-12",
+      "dateEnd": "2026-03-16",
+      "venue": "上海博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "互利天下：广东外贸一千年（参展）",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/10/15 - 2026/01/15",
+      "dateStart": "2025-10-15",
+      "dateEnd": "2026-01-15",
+      "venue": "广东省博物馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    },
+    {
+      "title": "瑞意十全——清宫档案文物联展",
+      "url": "https://www.dpm.org.cn/shows.html",
+      "category": "外展（故宫参展）",
+      "status": "touring",
+      "dateText": "2025/10/11 - 2026/01/05",
+      "dateStart": "2025-10-11",
+      "dateEnd": "2026-01-05",
+      "venue": "第一历史档案馆",
+      "verification": "pending",
+      "sources": [
+        "故宫博物院官网展览频道接口 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "故宫藏品外借展，展出地点为外地场馆"
+    }
+  ]
+}

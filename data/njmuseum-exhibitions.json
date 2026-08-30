@@ -1,0 +1,491 @@
+{
+  "museum": "南京博物院",
+  "upstream": "https://www.njmuseum.com/wwzl",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览接口（A 级单源），同步规则见 references/data-sources.md",
+  "exhibitions": [
+    {
+      "title": "云飞扬：西汉广陵漆木器文化与艺术",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026.8.15 - 2026.11.15",
+      "dateStart": "2026-08-15",
+      "dateEnd": "2026-11-15",
+      "venue": "特展馆三楼11号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1368"
+    },
+    {
+      "title": "“食”光宝藏——新石器时代江苏先民的生存奥秘",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月15日开幕",
+      "dateStart": "2026-07-15",
+      "dateEnd": null,
+      "venue": "特展馆3楼12号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1366"
+    },
+    {
+      "title": "守正与破界：明末清初画坛的笔锋之辨",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年6月19日开幕",
+      "dateStart": "2026-06-19",
+      "dateEnd": null,
+      "venue": "艺术馆21号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1364"
+    },
+    {
+      "title": "世界珍宝——印度莫卧儿王朝艺术展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "虚拟/数字展",
+      "status": "current",
+      "dateText": "2026.5.19 - 2026.10.7",
+      "dateStart": "2026-05-19",
+      "dateEnd": "2026-10-07",
+      "venue": "特展馆二楼8号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1360"
+    },
+    {
+      "title": "灯影——南京博物院藏陕西皮影艺术展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "虚拟/数字展",
+      "status": "current",
+      "dateText": "2026年5月15日开幕",
+      "dateStart": "2026-05-15",
+      "dateEnd": null,
+      "venue": "特展馆3楼 10号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1358"
+    },
+    {
+      "title": "君到姑苏见——明代以来书画中的苏州景观",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "虚拟/数字展",
+      "status": "current",
+      "dateText": "2026年4月4日开幕",
+      "dateStart": "2026-04-04",
+      "dateEnd": null,
+      "venue": "艺术馆 25号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1356"
+    },
+    {
+      "title": "传承 变革 复兴——傅抱石及二十世纪山水画群体",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年3月24日开幕",
+      "dateStart": "2026-03-24",
+      "dateEnd": null,
+      "venue": "艺术馆 19号展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1354"
+    },
+    {
+      "title": "大成至巧——南京博物院藏清乾隆“行围图”旋转盖瓶特展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年2月开幕",
+      "dateStart": "2026-02-01",
+      "dateEnd": null,
+      "venue": "特展馆2楼9号镇院之宝展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1348"
+    },
+    {
+      "title": "觀天下·坤舆万国全图VR大空间沉浸展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2025.07.10 - 2026.10.11",
+      "dateStart": "2025-07-10",
+      "dateEnd": "2026-10-11",
+      "venue": "艺术馆 大观厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 1325"
+    },
+    {
+      "title": "陈设清宫——南京博物院藏清代宫廷文物展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "特展馆 14展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 608"
+    },
+    {
+      "title": "精准与华美——南京博物院藏钟表精品展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "特展馆 13展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 609"
+    },
+    {
+      "title": "盛世华彩",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "特展馆 15展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 610"
+    },
+    {
+      "title": "苏天赐油画展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "艺术馆1F 27展厅（苏天赐油画馆）",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 531"
+    },
+    {
+      "title": "民国风情展",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "民国馆",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 535"
+    },
+    {
+      "title": "远古印象",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 1展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 548"
+    },
+    {
+      "title": "史前神韵 吴越春秋",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 2展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 549"
+    },
+    {
+      "title": "郡国华章 汉家故里",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 3展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 550"
+    },
+    {
+      "title": "六朝迭兴 隋唐华彩",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 4展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 560"
+    },
+    {
+      "title": "江淮多姿 宋元气象",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 5展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 552"
+    },
+    {
+      "title": "盛世江南 明清辉煌",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆 6展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 553"
+    },
+    {
+      "title": "吴为山雕塑馆",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "艺术馆1F 24展厅",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 519"
+    },
+    {
+      "title": "数字馆",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "历史馆与特展馆交接处的负一层",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 528"
+    },
+    {
+      "title": "老茶馆",
+      "url": "https://www.njmuseum.com/wwzl",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "非遗馆",
+      "verification": "pending",
+      "sources": [
+        "南京博物院官网展览接口 2026-08-30 抓取（/api/exhibition/list JSON API）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方编号 522"
+    }
+  ]
+}

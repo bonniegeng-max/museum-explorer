@@ -44,7 +44,7 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 输入：展馆名称 / 特展名称（+观展日期、同行人、兴趣偏好，可选）
 
-1. **同步上游展览索引**：读 `data/{museum}-exhibitions.json`；不存在或 `lastSynced` 超 30 天，按 `references/data-sources.md` 从馆方官方源（国博：官网展览频道+要闻流；微信公号推文经搜索引擎发现）同步一次，增量合并并告知变更摘要。
+1. **同步上游展览索引**：读 `data/{museum}-exhibitions.json`（已覆盖：国博/故宫/上博/南博/陕历博/湖博）；不存在或 `lastSynced` 超 30 天，按 `references/data-sources.md` 从馆方官方源同步一次（六馆抓取规则已实测固化：国博静态页+要闻流、故宫检索接口、上博/南博 JSON API、陕历博列表页、湖博推介栏目），增量合并并告知变更摘要。
 2. **多方交叉核验**信息：开放时间、票价、闭馆日期、目标展览是否仍在展。按 `references/source-verification.md` 执行，冲突信息并列展示，不确定标注【待核实】，标注信息获取日期。展期临近结束的展览，必查馆方要闻流/公众号确认是否已宣布闭展。
 3. **检索重点展品**：优先读 `data/{museum}.json` 本地库；无数据再按 `references/data-sources.md` 的源优先级联网检索（馆方官网藏品库 > 馆方公号 > 权威出版物/媒体），完成后按 `references/exhibits.schema.json` 回写入库。每件展品至少 2 个独立权威来源。
 4. **输出策展卡**：严格使用 `templates/curations-card.md` 模板（含勾选框、纪录片/书籍推荐、来源核验表——核验表为强制栏目，禁止省略）。
@@ -94,4 +94,4 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 ## ClawHub Meta
 
-version: 1.2.2 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture
+version: 1.4.0 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture

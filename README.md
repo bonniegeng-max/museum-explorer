@@ -90,6 +90,7 @@ openclaw skills install @bonniegeng-max/museum-explorer
 
 ## 更新日志
 
+- **v1.2.2** (2026-08-30)：安全加固——手帐模板 `makeStamp()` 新增 `sanitizeCenter()` SVG 白名单过滤（剥除脚本/事件/引用类标签与属性，防数据块注入）；README 推送指引改为 `gh auth login` 认证与 `--force-with-lease`，移除 token-in-URL 与默认 `--force`；SKILL.md 增加本地数据告知与照片隐私提示；观展单模板写入 `session.md` 时向用户说明，不静默写入。
 - **v1.2.1** (2026-08-30)：移除 skill 包内附带的 `publish.sh` 脚本，改为 README 中给出手动推送命令；修复 SkillSpector 因"附带发布脚本"导致的 `suspicious` 安全评级。
 - **v1.2.0** (2026-08-30)：新增「遇见吴哥窟」真实案例；完整 pilot 产出 8 件展品数据库、7 页电子手帐、8 枚印章 SVG；强化了【待核实】的诚实标注示例。
 - **v1.1.0**：加入 `session.md` 会话状态机制，明确来源核验为强制栏目。
@@ -97,16 +98,17 @@ openclaw skills install @bonniegeng-max/museum-explorer
 
 ## 手动推送到 GitHub（仓库维护者）
 
-本 skill 包不再附带发布脚本。如果你是仓库维护者，需要把更新同步到 GitHub：
+本 skill 包不附带任何发布脚本。如果你是仓库维护者，需要把更新同步到 GitHub，推荐使用 GitHub CLI 认证（凭证不落 shell 历史）：
 
 ```bash
+gh auth login            # 浏览器授权，凭证由 gh 安全托管
 cd museum-explorer
-git remote add origin https://oauth2:<你的GitHub令牌>@github.com/bonniegeng-max/museum-explorer.git
-git push -u origin main --force
+git remote add origin https://github.com/bonniegeng-max/museum-explorer.git
+git push -u origin main
 ```
 
-- 令牌生成：https://github.com/settings/tokens → Generate new token (classic) → 勾选 **repo** 权限
-- 仓库 `bonniegeng-max/museum-explorer` 当前是旧版 v1.0 内容，因此需要 `--force` 覆盖；请确认后再执行
+- 若推送被拒（远程有旧历史）：先 `git pull --rebase origin main`；确需替换历史时用 `git push --force-with-lease`，并知悉**这会覆盖远程已有提交，覆盖前请确认远程没有他人协作内容**。
+- 如需使用 Personal Access Token，请通过 `gh auth login` 或 git 凭证助手（`git config --global credential.helper store`）输入，**不要把令牌写进 URL 命令行**——令牌会留在 shell 历史与进程列表中造成泄露风险。
 
 ---
 

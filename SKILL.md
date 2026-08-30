@@ -37,6 +37,8 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 **规则**：每次用户回来继续这个展（行中来问展品、行后要手帐），先读 `session.md` 恢复上下文，再追加更新——禁止凭空重新生成已有内容。
 
+**本地数据告知（必做）**：首次创建会话目录时，向用户说明：观展记录（打卡、感受、照片引用、印章）将保存在本地 `journal/` 目录下的该展览文件夹中，仅存于用户本机；每次写入 `session.md` 或清单文件时，简短告知（例："已将本次打卡记录到会话文件"），不做用户不知情的静默写入。
+
 ## 阶段1：行前 pre-visit
 
 输入：展馆名称 / 特展名称（+观展日期、同行人、兴趣偏好，可选）
@@ -56,6 +58,8 @@ journal/{YYYY-MM-DD}-{展览slug}/
 ## 阶段3：行后 post-visit
 
 输入：看完展览后的个人感受（+照片文件，可选）
+
+> 照片处理提示：用户提供照片时，先说明照片只会在本地处理——以相对路径引用或复制进本展会话目录，不做任何上传或外发；用户可拒绝提供照片，手帐将以拍照占位框呈现。
 
 1. **生成印章**：按 `references/stamp-design-guide.md` 的统一形制，为每件打卡展品生成 SVG 印章，存入 `stamps/`。**SVG 形制为主路线**；仅当环境有图像生成工具且用户明确要求"写实印章"时，用图像生成中心纹样（形制外壳仍用 SVG 统一）。
    - 版权红线：古代文物纹样可抽象提取；当代艺术品只提取元素，禁止直接复制原作。
@@ -87,4 +91,4 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 ## ClawHub Meta
 
-version: 1.2.1 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture
+version: 1.2.2 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture

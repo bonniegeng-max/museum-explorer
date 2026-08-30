@@ -5,9 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>观展手帐 · Exhibition Journal</title>
 <!-- ============================================================
-  museum-explorer · 电子手帐模板 v1.0
+  museum-explorer · 电子手帐模板 v1.1
   ⚠️ 使用规则：只修改下方 <JOURNAL_DATA> 数据块，禁止改动 CSS 与渲染逻辑。
   印章形制已按 stamp-design-guide.md 固化为 makeStamp()，只填数据即可。
+  安全：stamp.center 原始 SVG 片段会经 sanitizeCenter() 白名单过滤
+  （仅保留 g/path/circle/ellipse/rect/line/polyline/polygon 及安全描边属性），
+  注入的脚本或事件属性会被剥除，请只填普通矢量形状。
   照片：exhibit.photo 填图片相对路径或留空（渲染为拍照占位框）。
   ============================================================ -->
 <style>
@@ -218,6 +221,32 @@ const JOURNAL_DATA = {
 const STAMP_COLORS = { cinnabar:'#C03A2B', indigo:'#2F4B6E', ochre:'#9C5333', ink:'#2B2620' };
 let _uid = 0;
 function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+/* 印章中心纹样白名单过滤：只放行安全矢量标签与描边属性，剥除脚本/事件/引用类内容 */
+const SVG_SAFE_TAGS = new Set(['g','path','circle','ellipse','rect','line','polyline','polygon']);
+const SVG_SAFE_ATTRS = new Set(['fill','stroke','stroke-width','stroke-linecap','stroke-linejoin','stroke-dasharray','d','cx','cy','r','rx','ry','x','y','width','height','points','transform','opacity','x1','y1','x2','y2']);
+function sanitizeCenter(raw){
+  if(!raw) return '';
+  try{
+    // text/html 宽松解析（DOMParser 文档不执行脚本），再逐节点白名单清洗
+    const doc = new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg">'+raw+'</svg>','text/html');
+    const svgRoot = doc.querySelector('svg');
+    if(!svgRoot) return '';
+    const out = [];
+    svgRoot.childNodes.forEach(n=>{ if(n.nodeType===1) out.push(cleanSvgNode(n)); });
+    return out.join('');
+  }catch(e){ return ''; }
+}
+function cleanSvgNode(el){
+  const tag = el.tagName.toLowerCase();
+  if(!SVG_SAFE_TAGS.has(tag)) return '';
+  let attrs = '';
+  for(const a of el.attributes){
+    if(SVG_SAFE_ATTRS.has(a.name)) attrs += ' '+a.name+'="'+a.value.replace(/"/g,'&quot;')+'"';
+  }
+  let inner = '';
+  el.childNodes.forEach(n=>{ if(n.nodeType===1) inner += cleanSvgNode(n); });
+  return '<'+tag+attrs+'>'+inner+'</'+tag+'>';
+}
 function makeStamp(st, size){
   const uid = 's'+(_uid++), c = STAMP_COLORS[st.color] || STAMP_COLORS.cinnabar;
   const sz = size || 170, rot = (st.rot!=null?st.rot:0);
@@ -233,7 +262,7 @@ function makeStamp(st, size){
     <circle cx="100" cy="100" r="86" fill="none" stroke="${c}" stroke-width="1.2"/>
     <text font-size="15" letter-spacing="2" fill="${c}" font-family="'LXGW WenKai','Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#at-${uid}" startOffset="50%" text-anchor="middle">${esc(st.name)}</textPath></text>
     <text font-size="9.5" letter-spacing="1.5" fill="${c}" font-family="'LXGW WenKai','Kaiti SC','STKaiti','KaiTi',serif"><textPath href="#ab-${uid}" startOffset="50%" text-anchor="middle">${esc(st.sub)}</textPath></text>
-    <g transform="translate(44,44)" style="color:${c};fill:currentColor;stroke:currentColor">${st.center||''}</g>
+    <g transform="translate(44,44)" style="color:${c};fill:currentColor;stroke:currentColor">${sanitizeCenter(st.center)}</g>
   </g></svg>`;
 }
 

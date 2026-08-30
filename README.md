@@ -33,9 +33,11 @@ museum-explorer/
 ├── references/
 │   ├── stamp-design-guide.md       # 印章形制规范
 │   ├── source-verification.md      # 来源核验红线
+│   ├── data-sources.md             # 上游数据源清单（官方源+抓取规则+同步流程，2026-08-30 实测）
 │   └── exhibits.schema.json        # 展品数据 schema
-├── data/                           # 展品知识库（按馆/展）
-│   └── yujian-angkor-2026.json     # 遇见吴哥窟展品库（真实案例）
+├── data/                           # 知识库（{museum}.json=展品，{museum}-exhibitions.json=展览索引）
+│   ├── yujian-angkor-2026.json     # 遇见吴哥窟展品库（真实案例）
+│   └── chnmuseum-exhibitions.json  # 国博在展索引（上游同步实战，37 条目）
 ├── journal/                        # 每次观展会话目录
 │   └── 2026-08-30-遇见吴哥窟/
 │       ├── session.md              # 会话状态
@@ -90,6 +92,7 @@ openclaw skills install @bonniegeng-max/museum-explorer
 
 ## 更新日志
 
+- **v1.3.0** (2026-08-30)：上游数据源体系——新增 `references/data-sources.md`（全部源 2026-08-30 沙箱实测：国博官网展览频道/详情页/要闻流/藏品库四层抓取规则、微信公众号"搜索引擎发现+直链抓取"路径、故宫等 7 家国内大馆、Met Museum 公开 API、卢浮宫；标注搜狗微信反爬与 Wikidata 网络受限等实测结论）；定义 `data/{museum}-exhibitions.json` 展览索引结构与同步流程（URL 为唯一键增量合并、展期原文/解析双字段、同步后必须简报）；实战产出 `data/chnmuseum-exhibitions.json`（国博 37 条目：8 在展 / 9 常设 / 17 已闭 / 3 巡展，闭展信息经要闻流二次佐证）；SKILL.md 阶段1 增加"同步上游展览索引"步骤与闭展复检要求。
 - **v1.2.2** (2026-08-30)：安全加固——手帐模板 `makeStamp()` 新增 `sanitizeCenter()` SVG 白名单过滤（剥除脚本/事件/引用类标签与属性，防数据块注入）；README 推送指引改为 `gh auth login` 认证与 `--force-with-lease`，移除 token-in-URL 与默认 `--force`；SKILL.md 增加本地数据告知与照片隐私提示；观展单模板写入 `session.md` 时向用户说明，不静默写入。
 - **v1.2.1** (2026-08-30)：移除 skill 包内附带的 `publish.sh` 脚本，改为 README 中给出手动推送命令；修复 SkillSpector 因"附带发布脚本"导致的 `suspicious` 安全评级。
 - **v1.2.0** (2026-08-30)：新增「遇见吴哥窟」真实案例；完整 pilot 产出 8 件展品数据库、7 页电子手帐、8 枚印章 SVG；强化了【待核实】的诚实标注示例。

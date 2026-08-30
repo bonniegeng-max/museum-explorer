@@ -17,8 +17,9 @@ museum-explorer/
 ├── references/
 │   ├── stamp-design-guide.md         # 印章形制规范（必读，决定集章风格统一）
 │   ├── source-verification.md        # 来源核验规范（红线落地规则）
+│   ├── data-sources.md               # 上游数据源清单（已实测：官方源+抓取规则+同步流程）
 │   └── exhibits.schema.json          # data 库展品记录 schema
-├── data/                             # 本地展品知识库（按 {museum}.json 组织）
+├── data/                             # 本地知识库（{museum}.json=展品，{museum}-exhibitions.json=展览索引）
 └── journal/                          # 每次观展的会话状态目录（见下）
 ```
 
@@ -43,10 +44,11 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 输入：展馆名称 / 特展名称（+观展日期、同行人、兴趣偏好，可选）
 
-1. **多方交叉核验**信息：开放时间、票价、闭馆日期。按 `references/source-verification.md` 执行，冲突信息并列展示，不确定标注【待核实】，标注信息获取日期。
-2. **检索重点展品**：优先读 `data/{museum}.json` 本地库；无数据再联网检索，完成后按 `references/exhibits.schema.json` 回写入库。每件展品至少 2 个独立权威来源。
-3. **输出策展卡**：严格使用 `templates/curations-card.md` 模板（含勾选框、纪录片/书籍推荐、来源核验表——核验表为强制栏目，禁止省略）。
-4. 用户勾选感兴趣的展品后，生成**分享精简版**（规则见策展卡模板尾部），方便截图约朋友。
+1. **同步上游展览索引**：读 `data/{museum}-exhibitions.json`；不存在或 `lastSynced` 超 30 天，按 `references/data-sources.md` 从馆方官方源（国博：官网展览频道+要闻流；微信公号推文经搜索引擎发现）同步一次，增量合并并告知变更摘要。
+2. **多方交叉核验**信息：开放时间、票价、闭馆日期、目标展览是否仍在展。按 `references/source-verification.md` 执行，冲突信息并列展示，不确定标注【待核实】，标注信息获取日期。展期临近结束的展览，必查馆方要闻流/公众号确认是否已宣布闭展。
+3. **检索重点展品**：优先读 `data/{museum}.json` 本地库；无数据再按 `references/data-sources.md` 的源优先级联网检索（馆方官网藏品库 > 馆方公号 > 权威出版物/媒体），完成后按 `references/exhibits.schema.json` 回写入库。每件展品至少 2 个独立权威来源。
+4. **输出策展卡**：严格使用 `templates/curations-card.md` 模板（含勾选框、纪录片/书籍推荐、来源核验表——核验表为强制栏目，禁止省略）。
+5. 用户勾选感兴趣的展品后，生成**分享精简版**（规则见策展卡模板尾部），方便截图约朋友。
 
 ## 阶段2：行中 on-site
 
@@ -69,7 +71,8 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 ## 知识积累与复用
 
-- 用户指令"积累展品"：检索核验后按 schema 写入 `data/{museum}.json`；
+- 用户指令"积累展品"：按 `references/data-sources.md` 的源优先级检索核验后，按 schema 写入 `data/{museum}.json`；
+- 用户指令"更新 xx 馆数据/看看最近有什么展"：按 `data-sources.md` 第五节流程同步上游展览索引，完成后简报新增/闭展/状态变化，禁止静默写入；
 - 做策展卡时优先读取本地已积累展品；
 - 所有入库展品记录来源与核验状态，`verification: pending` 的记录使用时必须提示用户。
 

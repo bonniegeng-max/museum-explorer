@@ -1,0 +1,758 @@
+{
+  "museum": "中国国家博物馆",
+  "upstream": "https://www.chnmuseum.cn/zl/",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览频道（A 级单源），同步规则见 references/data-sources.md",
+  "exhibitions": [
+    {
+      "title": "了不起的汉字——古文字与中华文明传承发展工程“十四五”...",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202607/t20260718_280942.shtml",
+      "category": "临时展览·历史文化",
+      "status": "current",
+      "dateText": "2026年7月16日对公众开放，展期3个月",
+      "dateStart": "2026-07-16",
+      "dateEnd": null,
+      "venue": "北2展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "fullTitle": "了不起的汉字——古文字与中华文明传承发展工程\"十四五\"成果展",
+      "notes": "列表页标题超长截断，全称经官网要闻流 2026-08-17 推文确认"
+    },
+    {
+      "title": "人民·丰碑——中国国家博物馆馆藏经典美术作品展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/zdzt/202607/t20260715_280783.shtml",
+      "category": "临时展览·重大主题",
+      "status": "current",
+      "dateText": "2026年7月14日起对公众展出",
+      "dateStart": "2026-07-14",
+      "dateEnd": null,
+      "venue": "中央一号大厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "巴西魂——波尔蒂纳里艺术展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202606/t20260613_279143.shtml",
+      "category": "临时展览·国际交流",
+      "status": "current",
+      "dateText": "2026年6月10日起对公众展出，展至10月11日",
+      "dateStart": "2026-06-10",
+      "dateEnd": null,
+      "venue": "南4展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "行·迹——卡塔尔游牧生活与文化展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202606/t20260610_279133.shtml",
+      "category": "临时展览·国际交流",
+      "status": "current",
+      "dateText": "2026年6月9日起对公众展出，展期三个月",
+      "dateStart": "2026-06-09",
+      "dateEnd": null,
+      "venue": "南3展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "心游万仞——蒲松龄与《聊斋志异》",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202605/t20260528_279094.shtml",
+      "category": "临时展览·历史文化",
+      "status": "current",
+      "dateText": "2026年5月28日—10月11日（当日可参观）",
+      "dateStart": "2026-05-28",
+      "dateEnd": "2026-10-11",
+      "venue": "北1展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "李静训和她的时代",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202604/t20260409_278920.shtml",
+      "category": "临时展览·历史文化",
+      "status": "current",
+      "dateText": "2026/4/3—10/8",
+      "dateStart": "2026-04-03",
+      "dateEnd": "2026-10-08",
+      "venue": "南6、南7展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "叩问永恒——庞贝的探索与发掘",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202601/t20260123_278263.shtml",
+      "category": "临时展览·国际交流",
+      "status": "current",
+      "dateText": "2026年2月4日起对公众展出，展至10月11日",
+      "dateStart": "2026-02-04",
+      "dateEnd": null,
+      "venue": "南1、南2展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国国家博物馆馆藏英模蜡像展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/zdzt/202401/t20240108_265754.shtml",
+      "category": "临时展览·重大主题",
+      "status": "current",
+      "dateText": "2024/1/9开展",
+      "dateStart": "2024-01-09",
+      "dateEnd": null,
+      "venue": "北9展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代玉器",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202308/t20230818_259222.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2023/8/18开展",
+      "dateStart": "2023-08-18",
+      "dateEnd": null,
+      "venue": "北19展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代佛造像",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202307/t20230718_258909.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2023/7/18开展",
+      "dateStart": "2023-07-18",
+      "dateEnd": null,
+      "venue": "南13展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代瓷器",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202301/t20230118_257977.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2023/1/18开展",
+      "dateStart": "2023-01-18",
+      "dateEnd": null,
+      "venue": "北17展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代饮食文化展",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202112/t20211227_253329.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2021/12/28开展",
+      "dateStart": "2021-12-28",
+      "dateEnd": null,
+      "venue": "北11展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "科技的力量",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202109/t20210926_251454.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2021/9/26开展",
+      "dateStart": "2021-09-26",
+      "dateEnd": null,
+      "venue": "2号中央大厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代钱币展",
+      "url": "https://www.chnmuseum.cn/zl/zhanlanyugao/201812/t20181220_32175.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2021/2/9开展",
+      "dateStart": "2021-02-09",
+      "dateEnd": null,
+      "venue": "南11展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "中国古代服饰文化",
+      "url": "https://www.chnmuseum.cn/zl/ztcl/202102/t20210205_248954.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2021/2/6开展",
+      "dateStart": "2021-02-06",
+      "dateEnd": null,
+      "venue": "北18展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "镜里千秋——中国古代铜镜文化",
+      "url": "https://www.chnmuseum.cn/zl/zhanlanyugao/202011/t20201123_248145.shtml",
+      "category": "专题陈列（常设）",
+      "status": "permanent",
+      "dateText": "2020/11/24开展",
+      "dateStart": "2020-11-24",
+      "dateEnd": null,
+      "venue": "南14展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "古代中国",
+      "url": "https://www.chnmuseum.cn/zl/zzzc/201812/t20181220_32172.shtml",
+      "category": "基本陈列（常设）",
+      "status": "permanent",
+      "dateText": "基本陈列（常设）",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "北20-北25展厅、南15-南20展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "看·见——中国国家博物馆藏海外中国图像展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202606/t20260602_279111.shtml",
+      "category": "临时展览·历史文化",
+      "status": "past",
+      "dateText": "2026年5月30日—2026年8月23日（当日可参观）",
+      "dateStart": "2026-05-30",
+      "dateEnd": "2026-08-23",
+      "venue": "北8展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取",
+        "馆方官网要闻流 2026-08-17\"国博展讯\"推文"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "官网要闻流 2026-08-17 推文确认 8月23日惜别观众（当日可参观）"
+    },
+    {
+      "title": "中国古代书画——清代进士的翰墨遗珍",
+      "url": "https://www.chnmuseum.cn/zl/zlhg/202501/t20250107_270853.shtml",
+      "category": "展览回顾（已闭展）",
+      "status": "past",
+      "dateText": "2025/1/22—2026/8/2（当日可参观）闭展改陈",
+      "dateStart": "2025-01-22",
+      "dateEnd": "2025-08-02",
+      "venue": "南12展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "数说犀尊",
+      "url": "https://www.chnmuseum.cn/zl/zlhg/202305/t20230529_258570.shtml",
+      "category": "展览回顾（已闭展）",
+      "status": "past",
+      "dateText": "2023/5/30—2026/7/5",
+      "dateStart": "2023-05-30",
+      "dateEnd": "2023-07-05",
+      "venue": "北16展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "风展红旗如画——馆藏红色经典文物展",
+      "url": "https://www.chnmuseum.cn/zl/zlhg/202409/t20240924_270179.shtml",
+      "category": "展览回顾（已闭展）",
+      "status": "past",
+      "dateText": "2024/9/29—2026/6/21",
+      "dateStart": "2024-09-29",
+      "dateEnd": "2024-06-21",
+      "venue": "中央大厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "岁月如诗入画梦——刘墉艺术作品展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/yscx/202604/t20260415_278958.shtml",
+      "category": "临时展览·艺术创新",
+      "status": "past",
+      "dateText": "2026/4/10—6/8",
+      "dateStart": "2026-04-10",
+      "dateEnd": "2026-06-08",
+      "venue": "北10展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "筑基强国路——中国制造“十四五”成就展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/zdzt/202512/t20251229_278264.shtml",
+      "category": "临时展览·重大主题",
+      "status": "past",
+      "dateText": "2025/12/30—2026/5/31",
+      "dateStart": "2025-12-30",
+      "dateEnd": "2025-05-31",
+      "venue": "艺术长廊、北3、北4展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "几何·和谐·生活——安德烈亚·帕拉第奥：从古典到经典的...",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202601/t20260123_278262.shtml",
+      "category": "临时展览·国际交流",
+      "status": "past",
+      "dateText": "2026/2/4—5/15",
+      "dateStart": "2026-02-04",
+      "dateEnd": "2026-05-15",
+      "venue": "南4展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "fullTitle": "了不起的汉字——古文字与中华文明传承发展工程\"十四五\"成果展",
+      "notes": "列表页标题超长截断，全称经官网要闻流 2026-08-17 推文确认"
+    },
+    {
+      "title": "跃马扬鞭——马年新春文化展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202601/t20260109_278261.shtml",
+      "category": "临时展览·历史文化",
+      "status": "past",
+      "dateText": "2026/1/30—5/5",
+      "dateStart": "2026-01-30",
+      "dateEnd": "2026-05-05",
+      "venue": "中国国家博物馆 北8展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "遇见考烈王——安徽淮南武王墩一号墓考古成果展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202512/t20251223_278258.shtml",
+      "category": "临时展览·历史文化",
+      "status": "past",
+      "dateText": "2025/12/26—2026/4/14",
+      "dateStart": "2025-12-26",
+      "dateEnd": "2025-04-14",
+      "venue": "北1、2展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "大地绘彩——2025年农民画大展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/yscx/202510/t20251028_278260.shtml",
+      "category": "临时展览·艺术创新",
+      "status": "past",
+      "dateText": "2025/10/29—2026/2/23",
+      "dateStart": "2025-10-29",
+      "dateEnd": "2025-02-23",
+      "venue": "中国国家博物馆 南6、南7展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "涅瓦河畔的遐思——列宾艺术特展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202507/t20250709_272123.shtml",
+      "category": "临时展览·国际交流",
+      "status": "past",
+      "dateText": "2025/7/23—2026/1/11",
+      "dateStart": "2025-07-23",
+      "dateEnd": "2025-01-11",
+      "venue": "南3、南4展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "国际友人与中国抗战——纪念中国人民抗日战争暨世界反法西...",
+      "url": "https://www.chnmuseum.cn/zl/lszl/zdzt/202508/t20250826_272531.shtml",
+      "category": "临时展览·重大主题",
+      "status": "past",
+      "dateText": "2025/9/9—12/14",
+      "dateStart": "2025-09-09",
+      "dateEnd": "2025-12-14",
+      "venue": "南8、南9展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "fullTitle": "了不起的汉字——古文字与中华文明传承发展工程\"十四五\"成果展",
+      "notes": "列表页标题超长截断，全称经官网要闻流 2026-08-17 推文确认"
+    },
+    {
+      "title": "文明的星河——上海合作组织国家博物馆藏文物联展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202508/t20250826_272532.shtml",
+      "category": "临时展览·国际交流",
+      "status": "past",
+      "dateText": "2025/8/27—11/16",
+      "dateStart": "2025-08-27",
+      "dateEnd": "2025-11-16",
+      "venue": "北1、北2展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "王国的艺术——沙特阿拉伯当代艺术展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202507/t20250729_272280.shtml",
+      "category": "临时展览·国际交流",
+      "status": "past",
+      "dateText": "2025/7/31—10/30",
+      "dateStart": "2025-07-31",
+      "dateEnd": "2025-10-30",
+      "venue": "北3、北4展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "宇宙考古：时空探索",
+      "url": "https://www.chnmuseum.cn/zl/lszl/gjjl/202506/t20250624_271967.shtml",
+      "category": "临时展览·国际交流",
+      "status": "past",
+      "dateText": "2025/7/2—10/12",
+      "dateStart": "2025-07-02",
+      "dateEnd": "2025-10-12",
+      "venue": "北8展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "琉光璃彩——淄博琉璃艺术展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202506/t20250609_271879.shtml",
+      "category": "临时展览·历史文化",
+      "status": "past",
+      "dateText": "2025/6/10—10/8",
+      "dateStart": "2025-06-10",
+      "dateEnd": "2025-10-08",
+      "venue": "南6、南7展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "双星耀世——三星堆—金沙遗址古蜀文明展",
+      "url": "https://www.chnmuseum.cn/zl/lszl/lswh/202512/t20251217_278259.shtml",
+      "category": "临时展览·历史文化",
+      "status": "past",
+      "dateText": "2026/1/18—8/18/",
+      "dateStart": "2026-01-18",
+      "dateEnd": "2026-08-18",
+      "venue": "南8、南9展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取",
+        "馆方官网要闻流 2026-08-15\"国博展讯\"推文"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "官网要闻流 2026-08-15 推文确认 8月18日惜别观众"
+    },
+    {
+      "title": "华彩万象——石窟艺术沉浸体验",
+      "url": "https://www.chnmuseum.cn/zl/gbxz/202608/t20260827_282449.shtml",
+      "category": "国博巡展（外地）",
+      "status": "touring",
+      "dateText": "2026年8月21日开展",
+      "dateStart": "2026-08-21",
+      "dateEnd": null,
+      "venue": "淄博陶瓷琉璃博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "珠玑玉佩的时光叙事",
+      "url": "https://www.chnmuseum.cn/zl/gbxz/202607/t20260722_281067.shtml",
+      "category": "国博巡展（外地）",
+      "status": "touring",
+      "dateText": "2026年7月17日开展",
+      "dateStart": "2026-07-17",
+      "dateEnd": null,
+      "venue": "新疆维吾尔自治区博物馆1号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "“人格的力量——中国共产党人的家国情怀”图片展",
+      "url": "https://www.chnmuseum.cn/zl/gbxz/202607/t20260709_280433.shtml",
+      "category": "国博巡展（外地）",
+      "status": "touring",
+      "dateText": "2026/7/1—9/19",
+      "dateStart": "2026-07-01",
+      "dateEnd": "2026-09-19",
+      "venue": "廊坊博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展览频道 2026-08-30 抓取"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    }
+  ]
+}

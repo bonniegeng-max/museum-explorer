@@ -90,9 +90,23 @@ openclaw skills install @bonniegeng-max/museum-explorer
 
 ## 更新日志
 
+- **v1.2.1** (2026-08-30)：移除 skill 包内附带的 `publish.sh` 脚本，改为 README 中给出手动推送命令；修复 SkillSpector 因"附带发布脚本"导致的 `suspicious` 安全评级。
 - **v1.2.0** (2026-08-30)：新增「遇见吴哥窟」真实案例；完整 pilot 产出 8 件展品数据库、7 页电子手帐、8 枚印章 SVG；强化了【待核实】的诚实标注示例。
 - **v1.1.0**：加入 `session.md` 会话状态机制，明确来源核验为强制栏目。
 - **v1.0.0**：基础三阶段模板与印章形制规范。
+
+## 手动推送到 GitHub（仓库维护者）
+
+本 skill 包不再附带发布脚本。如果你是仓库维护者，需要把更新同步到 GitHub：
+
+```bash
+cd museum-explorer
+git remote add origin https://oauth2:<你的GitHub令牌>@github.com/bonniegeng-max/museum-explorer.git
+git push -u origin main --force
+```
+
+- 令牌生成：https://github.com/settings/tokens → Generate new token (classic) → 勾选 **repo** 权限
+- 仓库 `bonniegeng-max/museum-explorer` 当前是旧版 v1.0 内容，因此需要 `--force` 覆盖；请确认后再执行
 
 ---
 

@@ -87,4 +87,4 @@ journal/{YYYY-MM-DD}-{展览slug}/
 
 ## ClawHub Meta
 
-version: 1.2.0 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture
+version: 1.2.1 name: museum-explorer description: 看展全链路助手，行前策展卡-行中观展-行后电子手帐，展品打卡印章，支持分享相约看展 tags: museum,exhibition,journal,stamp,culture

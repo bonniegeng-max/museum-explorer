@@ -1,0 +1,233 @@
+{
+  "museum": "中国美术馆",
+  "upstream": "https://www.namoc.cn/namoc/zhanlan/zl_list.shtml",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览列表页 zl_list.shtml（静态可解析，含展期/主办/场地结构化字段；注意域名为 namoc.cn 而非 namoc.org）+ 首页\"近期展览\"区；展讯页 zx.shtml 为 JS 动态渲染不可直抓，其条目经搜索引擎快照核验",
+  "exhibitions": [
+    {
+      "title": "大匠之道——任星航钧瓷作品展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202608/7f1895e35673457792d7f28812b52f54.shtml",
+      "category": "临时展览（工艺美术学术邀请系列展）",
+      "status": "current",
+      "dateText": "2026-08-02至2026-09-02",
+      "dateStart": "2026-08-02",
+      "dateEnd": "2026-09-02",
+      "venue": "10号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "⚠️ 距闭展仅 3 天"
+    },
+    {
+      "title": "全国中青年创新艺术展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202607/95ceae2c7f9b4588a6d541954befc1fd.shtml",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026-07-21至2026-09-03",
+      "dateStart": "2026-07-21",
+      "dateEnd": "2026-09-03",
+      "venue": "13、14、15、16、17号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "⚠️ 距闭展仅 4 天"
+    },
+    {
+      "title": "大匠之道——寇富平德化白瓷展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/zl_list.shtml",
+      "category": "临时展览（工艺美术学术邀请系列展）",
+      "status": "current",
+      "dateText": "2026-08-16至2026-09-15",
+      "dateStart": "2026-08-16",
+      "dateEnd": "2026-09-15",
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "馆方官网首页\"近期展览\"区 2026-08-30 核验"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "2026新时代首都美术展：金沙水拍云崖暖——纪念中国工农红军长征胜利90周年美术作品展",
+      "url": "https://www.namoc.cn/namoc/zhanxun/zx.shtml",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026-08-30至2026-09-10",
+      "dateStart": "2026-08-30",
+      "dateEnd": "2026-09-10",
+      "venue": "2、4、6号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展讯页（经搜索引擎快照核验）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "今日（8月30日）开展"
+    },
+    {
+      "title": "一城春色半城花——厦门经济特区建设45周年美术作品展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202608/e5853371a79f4da4ba7875fae7e033a7.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-08-16至2026-08-26",
+      "dateStart": "2026-08-16",
+      "dateEnd": "2026-08-26",
+      "venue": "1、8、9号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "老家河南·时代丹青——\"中原画风\"中华文明传承创新全国巡展·北京站",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202608/d7e22d2c6caf4338a2708abf0c4882c7.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-08-16至2026-08-26",
+      "dateStart": "2026-08-16",
+      "dateEnd": "2026-08-26",
+      "venue": "2、4、6号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "我们+ ——张望水墨与AI时代",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202607/07a26ed9c72f4092ac18700d59550a75.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-08-02至2026-08-12",
+      "dateStart": "2026-08-02",
+      "dateEnd": "2026-08-12",
+      "venue": "2、4、6号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "善守必攻——余宏达中国画肖像展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202607/d519930cc73149dab3ade93437927536.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-07-18至2026-07-29",
+      "dateStart": "2026-07-18",
+      "dateEnd": "2026-07-29",
+      "venue": "4号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "骥影当风——中国美术馆馆藏马题材雕塑作品展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202607/21bc22863a5b45c28bda7d965eb25b20.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-07-16至2026-08-11",
+      "dateStart": "2026-07-16",
+      "dateEnd": "2026-08-11",
+      "venue": "开渠厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "聚贤兴艺——陈师曾与他的同道美术作品展",
+      "url": "https://www.namoc.cn/namoc/zhanlan/202607/35e4a2fd4d01460fad4f81e7d868d22b.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-07-07至2026-07-15",
+      "dateStart": "2026-07-07",
+      "dateEnd": "2026-07-15",
+      "venue": "13、14、15、16、17号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "致敬巨匠：从达·芬奇到卡拉瓦乔——意大利文艺复兴名作展",
+      "url": "https://www.namoc.cn/namoc/zhanxun/zx.shtml",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026-04-28至2026-08-28",
+      "dateStart": "2026-04-28",
+      "dateEnd": "2026-08-28",
+      "venue": "3、5、7号厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网展讯页（经搜索引擎快照核验）",
+        "馆方官网首页新闻 2026-08-28"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "乌菲齐美术馆联展，8月28日刚闭展；官网首页新闻\"致敬中外巨匠，接续推出重磅展览\"（2026-08-28）佐证"
+    }
+  ]
+}

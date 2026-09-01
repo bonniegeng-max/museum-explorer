@@ -106,6 +106,8 @@ h2.sec::after{content:'';flex:1;height:1px;background:var(--line)}
 /* ============================================================
    ▼▼▼ JOURNAL_DATA 数据块 —— skill 使用时只改这里 ▼▼▼
    （以下为示例数据：塞尔维亚·贝尔格莱德特斯拉博物馆，使用时整体替换）
+   展品 key：exhibit.key 与策展卡/观展单的 key（S01…）一致，三阶段联动；
+   visited:true 的展品会生成印章并计入打卡数，false 则只列展品位。
    ============================================================ */
 const JOURNAL_DATA = {
   meta: {
@@ -119,7 +121,7 @@ const JOURNAL_DATA = {
   },
   exhibits: [
     {
-      no: "01", name: "特斯拉线圈", nameEn: "Tesla Coil", era: "1891 年制 · 铜线与木架",
+      key: "S01", no: "01", name: "特斯拉线圈", nameEn: "Tesla Coil", era: "1891 年制 · 铜线与木架",
       location: "一层主展厅",
       story: "馆内镇馆之宝，两层楼高的巨型放电线圈。特斯拉当年用它在观众面前制造人工闪电，蓝色的电弧噼啪作响，场场轰动。今天每周仍有固定演示场次，是全世界极少数能看到特斯拉线圈原规模放电的地方之一。",
       look: "演示开始前站到二层回廊俯拍，电弧亮起的瞬间快门连拍。",
@@ -134,7 +136,7 @@ const JOURNAL_DATA = {
           <path d="M26 96 h60" stroke-width="4"/></g>` }
     },
     {
-      no: "02", name: "无线遥控小船", nameEn: "Radio-Controlled Boat", era: "1898 年 · 木质模型",
+      key: "S02", no: "02", name: "无线遥控小船", nameEn: "Radio-Controlled Boat", era: "1898 年 · 木质模型",
       location: "二层展厅",
       story: "1898 年麦迪逊广场花园，特斯拉用一只无线电遥控的小船震惊全场——观众甚至怀疑船里藏着训练过的猴子。这是人类历史上第一次公开演示无线电遥控，比普及应用早了半个世纪。",
       look: "注意船身天线的铜环结构，那是'接收器'本身——当年还没有这个词。",
@@ -149,7 +151,7 @@ const JOURNAL_DATA = {
           <path d="M34 20 q6 -6 12 0 q6 6 12 0" stroke-width="3"/></g>` }
     },
     {
-      no: "03", name: "哥伦布蛋", nameEn: "Egg of Columbus", era: "1893 年 · 铜制演示装置",
+      key: "S03", no: "03", name: "哥伦布蛋", nameEn: "Egg of Columbus", era: "1893 年 · 铜制演示装置",
       location: "一层侧厅",
       story: "在芝加哥世博会上，特斯拉用一枚铜蛋演示旋转磁场：铜蛋在四只线圈产生的旋转磁场中自行立起来旋转。他说，这就像哥伦布立鸡蛋——你只是不知道窍门。交流电的魔力，一枚鸡蛋就讲清楚了。",
       look: "演示时看铜蛋从躺倒到立起的全过程，注意底座线圈的位置。",
@@ -162,7 +164,7 @@ const JOURNAL_DATA = {
           <path d="M30 88 q26 12 52 0" stroke-width="4"/></g>` }
     },
     {
-      no: "04", name: "感应电机模型", nameEn: "Induction Motor", era: "1887 年 · 原型复原",
+      key: "S04", no: "04", name: "感应电机模型", nameEn: "Induction Motor", era: "1887 年 · 原型复原",
       location: "二层展厅",
       story: "特斯拉 1887 年取得的交流感应电机专利，是现代工业电力的基石——今天世界上绝大多数工厂电机仍是这个原理的子孙。这台原型复原模型，记录着一个 31 岁移民在匹兹堡车间里改变世界的时刻。",
       look: "对比转子的笼形结构与展板上的专利图纸，几乎一模一样。",
@@ -176,7 +178,7 @@ const JOURNAL_DATA = {
           <path d="M44 46 l-10 -10 M68 46 l10 -10 M44 70 l-10 10 M68 70 l10 10" stroke-width="3"/></g>` }
     },
     {
-      no: "05", name: "特斯拉手稿档案", nameEn: "Personal Archive", era: "多年代 · 纸本",
+      key: "S05", no: "05", name: "特斯拉手稿档案", nameEn: "Personal Archive", era: "多年代 · 纸本",
       location: "档案陈列区",
       story: "博物馆保存着特斯拉的大量私人文件、图纸与书信，2003 年整体入选联合国教科文组织'世界记忆遗产'。他一生申请约 300 项专利，晚年构想的世界无线输电系统至今仍像科幻。",
       look: "找一页带涂改痕迹的图纸——天才的犹豫比结论更真实。",
@@ -190,7 +192,7 @@ const JOURNAL_DATA = {
           <path d="M46 66 h22" stroke-width="3.5"/><path d="M46 76 h14" stroke-width="3.5"/></g>` }
     },
     {
-      no: "06", name: "特斯拉的行李箱", nameEn: "Tesla's Suitcase", era: "生前遗物",
+      key: "S06", no: "06", name: "特斯拉的行李箱", nameEn: "Tesla's Suitcase", era: "生前遗物",
       location: "二层展厅",
       story: "特斯拉 1943 年在纽约旅馆房间去世，全部家当寥寥无几，这只行李箱是其一。展柜里还有他的礼帽、手套与眼镜。这位点亮了世界的人，走得比谁都轻。",
       look: "看箱面磨损的贴标，推断他最后一次远行是哪一年。",

@@ -1,0 +1,198 @@
+{
+  "museum": "广东省博物馆",
+  "upstream": "https://www.gdmuseum.org.cn/col9/list",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网\"正在热展\"列表 + 详情页（沙箱 curl 直连被 TLS 阻断，经 WebFetch 通道抓取）；特展展期与展厅经馆方资讯流、省文旅厅湾区展讯、粤博志愿者排班多源交叉",
+  "exhibitions": [
+    {
+      "title": "互利天下：广东外贸一千年",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/17183",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2025年10月15日—2026年10月15日",
+      "dateStart": "2025-10-15",
+      "dateEnd": "2026-10-15",
+      "venue": "三楼展厅二",
+      "verification": "pending",
+      "sources": [
+        "馆方官网热展列表（WebFetch 通道）",
+        "广东省文旅厅湾区展讯 2026-09 期",
+        "粤博志愿者讲解排班 2026-07-28 周"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "文艺复兴的交响：格拉斯哥博物馆藏大师作品展",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/18026",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月1日—10月18日",
+      "dateStart": "2026-07-01",
+      "dateEnd": "2026-10-18",
+      "venue": "三楼展厅三",
+      "verification": "pending",
+      "sources": [
+        "广东省文旅厅湾区展讯 2026-08/09 期",
+        "粤博志愿者讲解排班 2026-07-28 周",
+        "馆方官网详情页（WebFetch 通道）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "开始日期存在来源分歧：文旅厅官网与粤博志愿者排班均载 7月1日，\"广东发布\"公众号载 7月17日（后者疑为馆外 IFC 联动活动档期），以官方双源 7月1日为准"
+    },
+    {
+      "title": "印象·梵高——沉浸式数字艺术展",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/18036",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月15日—10月25日",
+      "dateStart": "2026-07-15",
+      "dateEnd": "2026-10-25",
+      "venue": "三楼展厅一",
+      "verification": "pending",
+      "sources": [
+        "广东省文旅厅湾区展讯 2026-08/09 期",
+        "粤博志愿者讲解排班 2026-07-28 周",
+        "馆方官网详情页（WebFetch 通道）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "虫友——寻访甲虫世界",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/18035",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月17日—8月30日",
+      "dateStart": "2026-07-17",
+      "dateEnd": "2026-08-30",
+      "venue": "三楼专题展厅",
+      "verification": "pending",
+      "sources": [
+        "广东省文旅厅湾区展讯 2026-08 期",
+        "粤博志愿者讲解排班 2026-07-28 周",
+        "馆方官网详情页（WebFetch 通道）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "⚠️ 今日（8月30日）为最后一天展期"
+    },
+    {
+      "title": "漆木精华——潮州木雕艺术展览",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/747",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设（2010-05-18 起）",
+      "dateStart": "2010-05-18",
+      "dateEnd": null,
+      "venue": "三楼木雕展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "广东历史文化陈列",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/748",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设（2010-05-18 起）",
+      "dateStart": "2010-05-18",
+      "dateEnd": null,
+      "venue": "历史展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "土火之艺——馆藏历代陶瓷展览",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/746",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设（2010-05-18 起）",
+      "dateStart": "2010-05-18",
+      "dateEnd": null,
+      "venue": "三夹层陶瓷展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "粤山秀水 丰物岭南——广东省自然资源展览",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/749",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设（2010-05-18 起）",
+      "dateStart": "2010-05-18",
+      "dateEnd": null,
+      "venue": "四楼自然展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "紫石凝英——端砚艺术展览",
+      "url": "https://www.gdmuseum.org.cn/cn/col9/750",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设（2010-05-18 起）",
+      "dateStart": "2010-05-18",
+      "dateEnd": null,
+      "venue": "三楼端砚展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    }
+  ]
+}

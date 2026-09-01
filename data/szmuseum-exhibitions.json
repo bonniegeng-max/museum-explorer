@@ -1,0 +1,168 @@
+{
+  "museum": "苏州博物馆",
+  "upstream": "https://www.szmuseum.com/Exhibition/Temporary",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网展览频道（临时展览 /Exhibition/Temporary + 基本陈列 /Exhibition/Index），列表页自带展期与展厅，静态可解析",
+  "exhibitions": [
+    {
+      "title": "鹰徽与月桂：拿破仑与法兰西变革时代",
+      "url": "https://www.szmuseum.com/Exhibition/TemporaryDetails/1dac6815-fa42-41fb-a7a7-497a762a0007",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月26日（周日）- 10月25日（周日）",
+      "dateStart": "2026-07-26",
+      "dateEnd": "2026-10-25",
+      "venue": "苏州博物馆西馆二楼国际合作厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "徐冰：假作真园",
+      "url": "https://www.szmuseum.com/Exhibition/TemporaryDetails/8eff2b44-3ab3-47d6-875c-d16d6b39dc9b",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月22日（周三）- 10月22日（周四）",
+      "dateStart": "2026-07-22",
+      "dateEnd": "2026-10-22",
+      "venue": "苏州博物馆本馆现代艺术厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "问君何处来：贝聿铭和他的家族",
+      "url": "https://www.szmuseum.com/Exhibition/TemporaryDetails/ad3f0fcc-81aa-495f-bef2-c9a61ff4cd23",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月16日（周四）- 10月15日（周四）",
+      "dateStart": "2026-07-16",
+      "dateEnd": "2026-10-15",
+      "venue": "苏州博物馆本馆地下临展厅、二楼书画厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "盛世姑苏游",
+      "url": "https://www.szmuseum.com/Exhibition/TemporaryDetails/cb530222-4c74-4a39-bcf0-8a44a99c1c41",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月11日（周六）- 10月11日（周日）",
+      "dateStart": "2026-07-11",
+      "dateEnd": "2026-10-11",
+      "venue": "苏州博物馆西馆3楼",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "吴门书画",
+      "url": "https://www.szmuseum.com/Exhibition/BasicDetails/3fc4a69d-07c9-4023-9fe5-90cf4a5e1463",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "本馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "吴中风雅",
+      "url": "https://www.szmuseum.com/Exhibition/BasicDetails/b944400a-67e9-4e7a-89d3-85e9ebdc1bb2",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "本馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "吴塔国宝",
+      "url": "https://www.szmuseum.com/Exhibition/BasicDetails/5833d78b-ee46-479e-b1bb-ce3dbdea949f",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "本馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "吴地遗珍",
+      "url": "https://www.szmuseum.com/Exhibition/BasicDetails/35d5587b-e28f-42c2-98b2-1c1cc59f49aa",
+      "category": "常设展览",
+      "status": "permanent",
+      "dateText": "常设",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "本馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "museum": "河南博物院",
+  "upstream": "https://www.chnmus.net/ch/information/exhibition/index.html",
+  "lastSynced": "2026-08-30",
+  "syncSource": "馆方官网\"展览资讯\"流（前3页18条，逐条进入详情页核实展期与地点）。数据边界：官网\"临时展览\"栏目页当前为空，展览信息以资讯流为准；资讯流混合本馆展/外地输出展/线上展三类，必须逐条核地点——\"龙城之金\"等条目实际在郑州/安庆/开封等地展出，已如实分类不计本馆在展",
+  "exhibitions": [
+    {
+      "title": "执铜者——亚欧大陆青铜艺术展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7480552998351933440",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年7月8日——10月31日",
+      "dateStart": "2026-07-08",
+      "dateEnd": "2026-10-31",
+      "venue": "主展馆1层16展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "北上先锋 红心向党——红二十五军长征革命文物联展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7490216895845502976",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "2026年8月5日——11月5日",
+      "dateStart": "2026-08-05",
+      "dateEnd": "2026-11-05",
+      "venue": "东配楼二层展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "印信昭昭——中国人的千年\"信义\"古印展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7418836856395010048",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "东配楼二层展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方资讯流未公布展期【待核实】；地点经详情页核实为本馆"
+    },
+    {
+      "title": "启明中原——李大钊与河南革命的峥嵘岁月",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7475372943837499392",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "主展馆三楼12展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "馆方资讯流未公布展期【待核实】；地点经详情页核实为本馆"
+    },
+    {
+      "title": "弘道之行——孔子周游列国",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7400076083917230080",
+      "category": "临时展览",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "展期与展厅均未在资讯流结构化公布【双待核实】，以现场为准"
+    },
+    {
+      "title": "\"骏\"图全球生肖文化大联展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7425080919557410816",
+      "category": "户外展示",
+      "status": "current",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "前广场",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "前广场户外装置类展示，非展厅展览；展期未公布【待核实】"
+    },
+    {
+      "title": "邀你至汉家——三维虚拟云展览",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7382338398842785792",
+      "category": "线上展览",
+      "status": "online",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "线上",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "三维虚拟云展览，无实体展厅"
+    },
+    {
+      "title": "乙卯日的一场王命：\"保\"的青铜独白",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7411241469614231552",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025年12月30日——2026年3月29日",
+      "dateStart": "2025-12-30",
+      "dateEnd": "2026-03-29",
+      "venue": "国宝展厅（主展馆3楼12展厅）",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "简述中国——甘肃出土汉简精品展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7422466462108880896",
+      "category": "临时展览（郑州分院）",
+      "status": "past",
+      "dateText": "2026年1月30日-5月6日",
+      "dateStart": "2026-01-30",
+      "dateEnd": "2026-05-06",
+      "venue": "河南博物院郑州分院（郑州博物馆文翰街9号）一层3展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "吉金铸史——青铜器里的古代中国",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7444640748416274432",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026年4月2日——6月14日",
+      "dateStart": "2026-04-02",
+      "dateEnd": "2026-06-14",
+      "venue": "东临展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "贺兰山下桃花石——西夏历史文化特展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7449755183162068992",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2026年4月15日——7月12日",
+      "dateStart": "2026-04-15",
+      "dateEnd": "2026-07-12",
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ]
+    },
+    {
+      "title": "大美嵩县——大翁中国画全国巡回展（郑州）",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7392464537045176320",
+      "category": "临时展览",
+      "status": "past",
+      "dateText": "2025年11月8日——14日",
+      "dateStart": "2025-11-08",
+      "dateEnd": "2025-11-14",
+      "venue": "",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "全国巡回展郑州站，非本院主办，仅作记录"
+    },
+    {
+      "title": "龙城之金——辽宁三燕文物精品展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7495295771533643776",
+      "category": "输出/合作展（外地）",
+      "status": "touring",
+      "dateText": "2026年8月18日—11月15日",
+      "dateStart": "2026-08-18",
+      "dateEnd": "2026-11-15",
+      "venue": "郑州商都遗址博物馆一楼临展厅",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "资讯流\"新展\"条目，实际展出地点为郑州商都遗址博物馆（非本院馆区），不计本馆在展"
+    },
+    {
+      "title": "太平·如意——河南博物院藏明清珍宝展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7479702190966181888",
+      "category": "输出巡展（外地）",
+      "status": "touring",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "安庆博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "本院藏品外借展，不计本馆在展"
+    },
+    {
+      "title": "拂晓·征程——抗战名将彭雪枫图片展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7476236601845092352",
+      "category": "输出巡展（外地）",
+      "status": "touring",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "安徽省阜阳市博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "建党105周年特展外展，不计本馆在展"
+    },
+    {
+      "title": "包拯和他的时代",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7476459499222470656",
+      "category": "输出巡展（外地）",
+      "status": "touring",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "开封市博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "\"开封有个包青天\"展在开封市博物馆启幕，不计本馆在展"
+    },
+    {
+      "title": "生命律动——古代动物造型艺术展",
+      "url": "https://www.chnmus.net/ch/information/exhibition/details.html?id=7427536453975937024",
+      "category": "输出巡展（外地）",
+      "status": "touring",
+      "dateText": "",
+      "dateStart": null,
+      "dateEnd": null,
+      "venue": "北京鲁迅博物馆",
+      "verification": "pending",
+      "sources": [
+        "馆方官网（2026-08-30 抓取）"
+      ],
+      "history": [
+        {
+          "date": "2026-08-30",
+          "change": "首次入库（上游同步）"
+        }
+      ],
+      "notes": "联合北京鲁迅博物馆在京展出，不计本馆在展"
+    }
+  ]
+}

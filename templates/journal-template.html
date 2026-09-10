@@ -108,6 +108,10 @@ h2.sec::after{content:'';flex:1;height:1px;background:var(--line)}
    （以下为示例数据：塞尔维亚·贝尔格莱德特斯拉博物馆，使用时整体替换）
    展品 key：exhibit.key 与策展卡/观展单的 key（S01…）一致，三阶段联动；
    visited:true 的展品会生成印章并计入打卡数，false 则只列展品位。
+   ⚠️ 安全红线（手工填写 · 数据在解析期进入 JS 字符串，渲染期转义保护不到）：
+   ① 值一律用英文双引号包裹并转义内部引号为 \"；② 反斜杠写成 \\；
+   ③ 值内不得出现 "</script"（确需展示写作 "<\/script"，并在拼接时用 esc 输出）；
+   ④ 禁止以任何形式把网络/用户输入的原样字符串直接粘入本块——所有外部文本须先经转义清洗。
    ============================================================ */
 const JOURNAL_DATA = {
   meta: {
@@ -222,7 +226,7 @@ const JOURNAL_DATA = {
 /* ---- 印章形制生成（与 references/stamp-design-guide.md 一致，勿动）---- */
 const STAMP_COLORS = { cinnabar:'#C03A2B', indigo:'#2F4B6E', ochre:'#9C5333', ink:'#2B2620' };
 let _uid = 0;
-function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
 /* 印章中心纹样白名单过滤：只放行安全矢量标签与描边属性，剥除脚本/事件/引用类内容 */
 const SVG_SAFE_TAGS = new Set(['g','path','circle','ellipse','rect','line','polyline','polygon']);
 const SVG_SAFE_ATTRS = new Set(['fill','stroke','stroke-width','stroke-linecap','stroke-linejoin','stroke-dasharray','d','cx','cy','r','rx','ry','x','y','width','height','points','transform','opacity','x1','y1','x2','y2']);
@@ -251,7 +255,7 @@ function cleanSvgNode(el){
 }
 function makeStamp(st, size){
   const uid = 's'+(_uid++), c = STAMP_COLORS[st.color] || STAMP_COLORS.cinnabar;
-  const sz = size || 170, rot = (st.rot!=null?st.rot:0);
+  const sz = Math.max(40, Math.min(400, Number(size)||170)), rot = Math.max(-360, Math.min(360, Number(st.rot)||0));
   return `<svg viewBox="0 0 200 200" width="${sz}" height="${sz}" style="transform:rotate(${rot}deg)" role="img" aria-label="${esc(st.name)}印章">
   <defs>
     <path id="at-${uid}" d="M 26,100 A 74,74 0 0 1 174,100"/>

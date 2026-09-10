@@ -2,7 +2,7 @@
   "museum": "陕西历史博物馆",
   "upstream": "https://www.sxhm.com/Temporary.html",
   "lastSynced": "2026-08-30",
-  "syncSource": "馆方官网临时展览栏目（A 级单源，全 5 页），同步规则见 references/data-sources.md",
+  "syncSource": "混合源：临时展览栏目（https://www.sxhm.com/Temporary.html，A 级单源，全 5 页，44 条 current/past）+ 基本陈列页（https://www.sxhm.com/basic_display.html，2 条 permanent，url 字段可直接区分来源路径），同步规则见 references/data-sources.md",
   "exhibitions": [
     {
       "title": "锦绣华裳——巴州博物馆藏古代服饰精品展",

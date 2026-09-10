@@ -1,0 +1,115 @@
+{
+  "museum": "中华世纪坛艺术馆（世界艺术博物馆）",
+  "upstream": "https://www.worldartmuseum.cn（官网沙箱不可达）",
+  "lastSynced": "2026-09-06",
+  "syncSource": "官网 worldartmuseum.cn 沙箱 curl/WebFetch 均不可达；改走多源替代链：北京市文物局月度展讯清单（wwj.beijing.gov.cn，A级）+ 北京市政府门户展览日历（beijing.gov.cn，A级）+ 新京报开幕报道（m.bjnews.com.cn，B级）+ 票务平台（爱票网，D级线索）交叉核验。世纪坛是临展高频场馆，专题展多为商业特展（购票制），与文物类大馆不同",
+  "exhibitions": [
+    {
+      "title": "百年芳心：从瓦尔德米勒到克里姆特——奥地利美景宫花绘真迹展",
+      "url": "https://www.beijing.gov.cn/fwcj/calendar/bwgzl/6a4234dd9405807783d023bd.html",
+      "category": "国际特展（购票制）",
+      "status": "current",
+      "dateText": "2026年6月13日-2026年9月19日",
+      "dateStart": "2026-06-13",
+      "dateEnd": "2026-09-19",
+      "venue": "中华世纪坛一层专题展厅",
+      "verification": "verified",
+      "sources": [
+        "北京市政府门户展览日历（A级，2026-09-06）",
+        "新京报开幕报道 m.bjnews.com.cn/detail/1781269956129798（B级，含展品照片）",
+        "票务平台爱票网票型详情（D级线索，票务规则细节）"
+      ],
+      "notes": "60件真迹（总价值逾4.5亿元）、35位艺术家，中奥建交55周年，多件首次离开欧洲；红/紫/绿三色叙事5大展区，声音+气味美学；出口有'我与地坛'联名咖啡快闪；现场有免费自助套色印章；票价98元/人（曾推早鸟78/68），学生/60+老人/军人等优待票，1米以下儿童免票；⚠️ 距闭展倒计时：以观展日计算",
+      "history": [
+        {
+          "date": "2026-09-06",
+          "change": "首次入库（多源同步，用户行前触发）"
+        }
+      ]
+    },
+    {
+      "title": "苍穹记忆——中华世纪坛\"南天门计划\"科幻科普主题展",
+      "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1737418/1738081/zlzx/744077620/index.html",
+      "category": "主题展（购票制）",
+      "status": "current",
+      "dateText": "2026年7月8日—10月11日",
+      "dateStart": "2026-07-08",
+      "dateEnd": "2026-10-11",
+      "venue": "南广场·当代艺术展厅",
+      "verification": "pending",
+      "sources": [
+        "北京市文物局月度展讯清单（A级，2026-09-06）"
+      ],
+      "notes": "科幻筑梦+航空报国主题，国产原创科幻IP沉浸式场景；票价108元/人",
+      "history": [
+        {
+          "date": "2026-09-06",
+          "change": "首次入库（多源同步）"
+        }
+      ]
+    },
+    {
+      "title": "我们·看见中华——文化主题展",
+      "url": "https://www.worldartmuseum.cn/we-seeing-china",
+      "category": "主题展",
+      "status": "current",
+      "dateText": "2026年7月17日—12月31日",
+      "dateStart": "2026-07-17",
+      "dateEnd": "2026-12-31",
+      "venue": "二层世纪大厅",
+      "verification": "pending",
+      "sources": [
+        "世纪坛官方公众号'大坛展讯'经搜索引擎索引（A级内容）"
+      ],
+      "notes": "与展伴生的'跟着课本探展'亲子活动168元；展览本身经'中华世纪坛开放服务'小程序实名登记入馆，票价未公布【待核实】",
+      "history": [
+        {
+          "date": "2026-09-06",
+          "change": "首次入库（多源同步）"
+        }
+      ]
+    },
+    {
+      "title": "北京摄影周2026（主会场）",
+      "url": "https://wwj.beijing.gov.cn",
+      "category": "节展（主会场）",
+      "status": "current",
+      "dateText": "2026年9月5日-9月13日（周一不闭馆）",
+      "dateStart": "2026-09-05",
+      "dateEnd": "2026-09-13",
+      "venue": "全馆多展厅（B1数字艺术展厅/1F西门厅/综合展厅/2F世界艺术展厅东西厅/3F三层展厅/南广场/和合广场）",
+      "verification": "pending",
+      "sources": [
+        "中国艺术摄影学会官方发布（A级，2026-09-06经搜索引擎索引）"
+      ],
+      "notes": "⚠️ 特殊：活动期周一不闭馆；10+平行展（万物生长/即心即物/太阳圆/我们之间：野性的表演/世界摄影史的目光—匈牙利摄影博物馆馆藏/时代之眼致敬展等）；扫码'中华世纪坛'小程序预约观展；免费展览为主【待核实个别收费】",
+      "history": [
+        {
+          "date": "2026-09-06",
+          "change": "首次入库（多源同步，摄影周已开幕）"
+        }
+      ]
+    },
+    {
+      "title": "大音·和鸣——中国传统音乐数字艺术展",
+      "url": "https://wwj.beijing.gov.cn",
+      "category": "数字艺术展（购票制）",
+      "status": "past",
+      "dateText": "2026年7月8日—8月23日",
+      "dateStart": "2026-07-08",
+      "dateEnd": "2026-08-23",
+      "venue": "B1数字展厅",
+      "verification": "pending",
+      "sources": [
+        "世纪坛官方公众号'大坛展讯'经搜索引擎索引"
+      ],
+      "notes": "已闭展",
+      "history": [
+        {
+          "date": "2026-09-06",
+          "change": "首次入库（多源同步）"
+        }
+      ]
+    }
+  ]
+}

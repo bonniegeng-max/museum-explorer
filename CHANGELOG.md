@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.1 — 2026-09-16
+
+- Added an explicit instruction to follow the language of the user's current request.
+- Clarified that bilingual labels and examples are optional illustrations.
+- Replaced Chinese-only template placeholders with language-neutral placeholders.
+
 ## 2.0.0 — 2026-09-16
 
 - Repositioned the skill as `Museum Visit Planner & Guide`.

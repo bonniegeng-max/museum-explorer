@@ -6,9 +6,9 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const skill = fs.readFileSync(path.join(root, "SKILL.md"), "utf8");
 
-test("release metadata is v2.0.0", () => {
+test("release metadata is v2.0.1", () => {
   assert.match(skill, /name: museum-explorer/);
-  assert.match(skill, /version: 2\.0\.0/);
+  assert.match(skill, /version: 2\.0\.1/);
   assert.match(skill, /Museum Visit Planner & Guide/);
 });
 
@@ -52,6 +52,11 @@ test("current facts require official verification and dates", () => {
 test("default behavior has no side effects", () => {
   assert.match(skill, /Do not create or modify files unless/);
   assert.match(skill, /Do not sign in, buy tickets, make reservations, or submit forms/);
+});
+
+test("output language follows the current request", () => {
+  assert.match(skill, /Respond in the language used in the user's current request/);
+  assert.match(skill, /examples, not a requirement to output both languages/);
 });
 
 test("historical example cannot be reused as current data", () => {

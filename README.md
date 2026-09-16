@@ -2,6 +2,8 @@
 
 Plan a specific museum or exhibition visit, understand what you are seeing on site, and turn the visit into a sourced memory afterward.
 
+The skill responds in the language of the user's current request. The Chinese and English examples below demonstrate multilingual use; they do not impose a locale.
+
 ## Three independent modes
 
 - **Plan**: verified logistics plus a realistic 90- or 180-minute route.
@@ -18,6 +20,8 @@ You can use any one mode without completing the other stages.
 我在展厅里，这件青铜器上的饕餮纹怎么看？
 把我今天在上博看的五件展品整理成观展记录。
 Plan a three-hour visit to the Shanghai Museum for a first-time visitor.
+What should I focus on during a 90-minute visit to the Palace Museum?
+Turn my notes from today's exhibition into a concise visit memory.
 ```
 
 ## Included assets

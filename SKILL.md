@@ -1,6 +1,6 @@
 ---
 name: museum-explorer
-version: 2.0.0
+version: 2.0.1
 description: Plan a specific museum or exhibition visit with verified logistics and 90/180-minute routes, get concise on-site exhibit explanations, or turn a completed visit into a sourced memory note. Use for a named venue, exhibition, artwork, or completed museum visit.
 allowed-tools: WebSearch, WebFetch, Read
 ---
@@ -18,6 +18,10 @@ The skill has three independent modes:
 - **Remember**: turn the visitor's notes and reactions into a sourced visit memory.
 
 Use the smallest mode that satisfies the request. Do not force the full three-stage workflow.
+
+## Output Language
+
+Respond in the language used in the user's current request. If that language is unclear, ask which language they prefer. Chinese and English examples in this package illustrate usage only and do not force the output language.
 
 ## When to Use
 
@@ -150,7 +154,7 @@ These packs describe collection strengths, route heuristics, and facts that must
 
 ## Output Labels
 
-Use these labels consistently:
+Use equivalent status labels in the user's current language. The pairs below are examples, not a requirement to output both languages:
 
 - `已核实` / `Verified`
 - `用户提供` / `User-provided`

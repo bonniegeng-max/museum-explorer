@@ -42,11 +42,11 @@
 
 ## Five Things to Notice
 
-1. `[观察点一]`
-2. `[观察点二]`
-3. `[观察点三]`
-4. `[观察点四]`
-5. `[观察点五]`
+1. `[Observation 1]`
+2. `[Observation 2]`
+3. `[Observation 3]`
+4. `[Observation 4]`
+5. `[Observation 5]`
 
 ## Adaptations
 

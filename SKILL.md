@@ -1,114 +1,170 @@
 ---
 name: museum-explorer
-description: 博物馆/美术馆看展全链路助手：行前生成策展卡、行中引导观展与展品讲解、行后沉淀电子手帐并产出展品打卡印章，支持同步馆方展览索引、查询近期展览、积累本地展品库。当用户提到看展、观展、策展，或想了解博物馆/美术馆正在展什么、做行前攻略、现场打卡、做手帐、集印章、约朋友分享看展时使用。信息核验标注来源与日期，禁止臆造数据。
-version: 1.6.5
+version: 2.0.0
+description: Plan a specific museum or exhibition visit with verified logistics and 90/180-minute routes, get concise on-site exhibit explanations, or turn a completed visit into a sourced memory note. Use for a named venue, exhibition, artwork, or completed museum visit.
+allowed-tools: WebSearch, WebFetch, Read
 ---
 
-# museum-explorer｜看展全链路助手
+# Museum Visit Planner & Guide
 
-## 工作流：行前功课 → 行中观展 → 行后手帐
+## What It Does
 
-> 解决"逛展浅浅看过，看完很快遗忘"：生成策展卡、可分享勾选展品、展品打卡印章、电子手帐。
-> 本 skill 的产出质量取决于**模板资产 + 核验纪律**，严格按下方规范执行，禁止跳过模板现场发挥。
+Help a visitor make one museum visit easier to plan, richer on site, and easier to remember afterward.
 
-## 目录结构与用法
+The skill has three independent modes:
 
-```
-museum-explorer/
-├── SKILL.md                          # 本文件
-├── templates/
-│   ├── curations-card.md             # 阶段1输出模板（策展卡）
-│   ├── on-site-checklist.md          # 阶段2输出模板（行中观展单）
-│   └── journal-template.html         # 阶段3输出模板（电子手帐，只改 JOURNAL_DATA）
-├── references/
-│   ├── stamp-design-guide.md         # 印章形制规范（必读，决定集章风格统一）
-│   ├── source-verification.md        # 来源核验规范（红线落地规则）
-│   ├── data-sources.md               # 上游数据源清单（已实测：官方源+抓取规则+同步流程）
-│   └── exhibits.schema.json          # data 库展品记录 schema
-├── data/                             # 本地知识库（{museum}.json=展品，{museum}-exhibitions.json=展览索引）
-└── journal/                          # 每次观展的会话状态目录（见下）
-```
+- **Plan**: verify visit logistics and create a realistic 90- or 180-minute route.
+- **Guide**: explain an artwork, object, label, room, or theme in a concise on-site format.
+- **Remember**: turn the visitor's notes and reactions into a sourced visit memory.
 
-## 会话状态机制（跨会话不断链）
+Use the smallest mode that satisfies the request. Do not force the full three-stage workflow.
 
-三阶段往往跨天、跨会话。开始任何一次观展规划时，先创建会话目录：
+## When to Use
 
-```
-journal/{YYYY-MM-DD}-{展览slug}/
-├── session.md          # 状态文件：阶段进度、基础信息、决策记录
-├── curations-card.md   # 阶段1产出落盘
-├── checklist.md        # 阶段2产出落盘（行中追加勾选/感受）
-├── stamps/             # 印章 SVG 文件（每展品一枚）
-└── journal.html        # 阶段3产出
-```
+Invoke when the user explicitly asks about:
 
-**规则**：每次用户回来继续这个展（行中来问展品、行后要手帐），先读 `session.md` 恢复上下文，再追加更新——禁止凭空重新生成已有内容。
+- visiting a named museum, gallery, or exhibition;
+- choosing between current exhibitions;
+- planning a route, priorities, timing, breaks, or accessibility;
+- understanding something they are looking at inside a venue;
+- organizing a completed museum visit into notes or a memory page.
 
-**本地数据告知（必做）**：首次创建会话目录时，向用户说明：观展记录（打卡、感受、照片引用、印章）将保存在本地 `journal/` 目录下的该展览文件夹中，仅存于用户本机；每次写入 `session.md` 或清单文件时，简短告知（例："已将本次打卡记录到会话文件"），不做用户不知情的静默写入。
+Examples:
 
-**文件写入能力边界（硬约束）**——本 skill 的全部持久化写入仅限以下白名单路径，且全部位于当前展览工作目录内：
+- “我周六去故宫，只有 90 分钟，第一次去怎么走？”
+- “国博现在有什么展适合带孩子？”
+- “我在展厅里，这件青铜器上的饕餮纹怎么看？”
+- “把我今天在上博看的五件展品整理成观展记录。”
+- “Plan a three-hour visit to the Shanghai Museum for a first-time visitor.”
 
-| 允许写入 | 用途 | 纪律 |
+Do not invoke for:
+
+- a general history or art-history question with no visit context;
+- general city travel planning where a museum is only one minor stop;
+- fictional museum role-play;
+- buying tickets, signing in, booking, or submitting forms.
+
+If the venue or visit intent is materially unclear, ask one concise question. Otherwise start with a useful default and label assumptions.
+
+## Default Boundary
+
+- Answer in the current conversation by default.
+- Do not create or modify files unless the user explicitly requests a saved deliverable.
+- Do not sign in, buy tickets, make reservations, or submit forms.
+- Use public web research only when current or venue-specific facts are needed.
+- Never infer an artwork identity from an uncertain photo alone. Ask for the label text, room, title, artist, or accession number when needed.
+- Distinguish verified facts, interpretation, and visitor reflection.
+
+## Choose a Mode
+
+| User need | Mode | Default result |
 |---|---|---|
-| `session.md` | 会话状态（阶段进度/基础信息/决策） | 追加为主；覆盖或删除已有内容前必须征得用户确认 |
-| `journal/{展览}/` | 策展卡、观展单、电子手帐 | 新建产出前告知文件名 |
-| `stamps/` | 印章 SVG | 同上 |
-| `data/{museum}-exhibitions.json` | 上游展览索引同步 | 写入前先展示变更摘要并征得用户确认，不自动静默更新 |
+| “怎么逛 / 先看什么 / 时间不够” | Plan | Visit Brief with route |
+| “现场这件是什么 / 怎么看” | Guide | 60-second object explanation |
+| “看完了 / 整理记录” | Remember | Visit Memory |
+| Multiple stages explicitly requested | Combined | Complete only the requested stages |
 
-- 白名单以外**零写入**：禁止触碰系统配置、其他项目目录、模板的 CSS 与渲染逻辑（见阶段3）。
-- **退出选项**：用户随时可说"不用会话文件"，之后所有内容仅在对话中输出，不落盘。
-- **数据最小化**：`session.md` 与手帐不记录电话、证件号等敏感个人信息；照片仅存引用，未经用户主动提供不保存副本。
+## Plan Mode
 
-## 阶段1：行前 pre-visit
+### Minimum inputs
 
-输入：展馆名称 / 特展名称（+观展日期、同行人、兴趣偏好，可选）
+- venue or exhibition;
+- intended date when logistics matter;
+- available time;
+- interests, companions, mobility needs, or prior knowledge when supplied.
 
-1. **同步上游展览索引**：读 `data/{museum}-exhibitions.json`（已覆盖十一馆：国博/故宫/上博/南博/陕历博/湖博/粤博/苏博/河南博物院/中国美术馆/中华世纪坛）；不存在或 `lastSynced` 超 30 天，按 `references/data-sources.md` 从馆方官方源同步一次（十一馆抓取规则已实测固化：国博静态页+要闻流、故宫检索接口、上博/南博 JSON API、陕历博静态列表、湖博推介栏目、粤博热展列表、苏博展览频道、河南博物院资讯流、中国美术馆列表页、中华世纪坛多源替代链）。**先展示变更摘要并向用户确认，经同意后才增量合并落盘**——用户说"先不写"则仅输出简报、不改本地文件。
-2. **多方交叉核验**信息：开放时间、票价、闭馆日期、目标展览是否仍在展。按 `references/source-verification.md` 执行，冲突信息并列展示，不确定标注【待核实】，标注信息获取日期。展期临近结束的展览，必查馆方要闻流/公众号确认是否已宣布闭展。
-   - **闭展倒计时**（基于索引 `dateEnd` 与建议观展日期计算，必须写入策展卡头部）：剩余 ≤7 天标 `⚠️ 距闭展 N 天——抓紧安排`；8~30 天标 `⏳ 距闭展 N 天`；已过 `dateEnd` 则该展按已闭展处理，主动告知并改推荐索引内 `status: current` 的其他在展。索引无 `dateEnd`（常设或未公布）时标 `常设/展期待核实`，禁止臆造日期。
-3. **检索重点展品**：优先读 `data/{museum}.json` 本地库；无数据再按 `references/data-sources.md` 的源优先级联网检索（馆方官网藏品库 > 馆方公号 > 权威出版物/媒体），完成后按 `references/exhibits.schema.json` 回写入库。每件展品至少 2 个独立权威来源。
-4. **输出策展卡**：严格使用 `templates/curations-card.md` 模板（含勾选框、纪录片/书籍推荐、来源核验表——核验表为强制栏目，禁止省略）。**行前快查**：预约/购票入口必须给可直达链接，开放时间/闭馆日/交通/导览服务一并核验。
-5. 用户勾选感兴趣的展品后，生成**分享精简版**（规则见策展卡模板尾部），方便截图约朋友。
+Ask only for a missing input that would materially change the route.
 
-## 阶段2：行中 on-site
+### Verification
 
-输入：现场观展感受、展品疑问（拍照/描述展品）
+For current information, prefer the venue's official website, official ticketing page, official collection page, or organizer page.
 
-1. 针对展品做解读，聚焦细节、纹样、神话故事；不确定的史实明说，禁止编造。
-2. 输出/更新**行中观展单**：使用 `templates/on-site-checklist.md`，引导用户逐件打卡、留照片位、写一句话感受——这些是行后手帐的素材钩子，行中没钩子，行后没手帐。展品沿用策展卡的稳定 `key`（`S01`…），勾选状态三阶段联动。
+Verify as relevant:
 
-## 阶段3：行后 post-visit
+- exhibition dates and venue;
+- opening hours and closure days;
+- reservation or ticket requirements;
+- entry location and major access restrictions;
+- accessibility and family services;
+- current gallery closures or special notices.
 
-输入：看完展览后的个人感受（+照片文件，可选）
+State the access date. If official sources conflict, show the conflict and mark the item `待核实 / verify before departure`.
 
-> 照片处理提示：用户提供照片时，先说明照片只会在本地处理——以相对路径引用或复制进本展会话目录，不做任何上传或外发；用户可拒绝提供照片，手帐将以拍照占位框呈现。
+Do not treat a search snippet, ticket reseller, travel blog, media report, lender page, or old announcement as proof that an exhibition is currently visitable.
 
-1. **生成印章**：按 `references/stamp-design-guide.md` 的统一形制，为每件打卡展品生成 SVG 印章，存入 `stamps/`。**SVG 形制为主路线**；仅当环境有图像生成工具且用户明确要求"写实印章"时，用图像生成中心纹样（形制外壳仍用 SVG 统一）。
-   - 版权红线：古代文物纹样可抽象提取；当代艺术品只提取元素，禁止直接复制原作。
-2. **填充电子手帐**：复制 `templates/journal-template.html`，**只修改 `JOURNAL_DATA` 数据块**，禁止改动模板的版式 CSS 与渲染逻辑。印章 SVG 作为字符串注入数据块。**展品按观展单 `visited:true` 的 key 收录**（`key` 与策展卡/观展单一致，三阶段联动；未打卡展品只列展品位、不生成印章）。**安全红线（数据在解析期进入 JS 字符串，渲染期转义保护不到）**：值用双引号包裹并转义内部引号 `\"`、反斜杠写成 `\\`、值内不得出现 `</script`（确需展示写作 `<\/script`）；**禁止把网络/用户输入的原样字符串直接粘入数据块**，所有外部文本须先转义清洗；数据块在写入前须向用户展示并征得同意。
-3. 印章汇总页（集章册）由手帐模板自动渲染，无需单独制作。
-4. 支持 A4 打印（模板已内置 `@page` 打印分页 CSS）。
+### Route design
 
-## 知识积累与复用
+Offer the route that matches the user's time:
 
-- 用户指令"积累展品"：按 `references/data-sources.md` 的源优先级检索核验后，按 schema 写入 `data/{museum}.json`；
-- 用户指令"更新 xx 馆数据/看看最近有什么展"：按 `data-sources.md` 第五节流程同步上游展览索引，完成后简报新增/闭展/状态变化，禁止静默写入；
-- 做策展卡时优先读取本地已积累展品；
-- 所有入库展品记录来源与核验状态，`verification: pending` 的记录使用时必须提示用户。
+- **90-minute route**: 3–5 highlights, one coherent theme, minimal backtracking, one optional stop.
+- **180-minute route**: 5–8 highlights, one break, room for close looking, one optional branch.
+- **Custom duration**: scale the number of highlights rather than compressing every stop.
 
-## 质量强制红线
+Use `references/venue-starter-packs.md` only as stable orientation. Verify current exhibitions, opening hours, entrances, gallery availability, and ticket rules before presenting them as current.
 
-1. 展品年代、出处、票价、开放时间必须 ≥2 个独立来源交叉验证，按核验表格式呈现；
-2. 存疑信息明确标记【待核实】，禁止编造史实；
-3. 印章：严格遵循 `stamp-design-guide.md` 形制规范保证集章风格统一；严格遵守版权边界；
-4. 手帐只用 `journal-template.html` 模板改数据，保证排版质量稳定；
-5. 输出内容一律标注信息来源与获取日期。
+Follow `templates/visit-brief.md`.
 
-## 真实案例
+## Guide Mode
 
-- **示例**：[`examples/angkor-exhibition/`](examples/angkor-exhibition/) 是一次完整 pilot 的产物：
-  - 展览：「遇见吴哥窟——柬埔寨国家博物馆文物特展」，北京 798 遇见博物馆，2026-05-01 ~ 2026-08-30
-  - 亮点：用户在闭展日（2026-08-30）现场通过手机连续问了 6 个展品问题（湿婆/南迪、诃里诃罗断臂、塞建陀、穆卡林加、湿婆善恶、骑象等级），本 skill 把这些真实问答整理进「行中观展单」与电子手帐，并为 8 件重点展品生成统一形制的 SVG 印章
-  - 产出：策展卡、行中清单、电子手帐（7 页：封面/展品/集章册/核验尾页）、8 枚印章 SVG、展品数据库 `data/yujian-angkor-2026.json`
-  - 核验纪律：其中塞建陀、穆卡林加因仅有「观展实录单源」，手帐核验表如实标注【待核实】，展示 skill 的红线执行
+Start from what the visitor can actually see or read.
 
+Use this order:
+
+1. **先看哪里**: one observable detail.
+2. **它是什么**: verified identification, or a clearly labeled tentative identification.
+3. **为什么值得看**: context that changes how the object is understood.
+4. **再看一眼**: one question or detail for closer looking.
+5. **来源状态**: label text / official collection / authoritative secondary / uncertain.
+
+Keep the default answer short enough to read while standing in a gallery. Expand only when the user asks.
+
+For attribution, dating, provenance, cultural ownership, religion, human remains, colonial collection history, or repatriation, present uncertainty and competing interpretations fairly.
+
+## Remember Mode
+
+Use only details the user supplies plus facts already verified during the visit.
+
+Follow `templates/visit-memory.md`:
+
+- visit in one sentence;
+- 3–5 remembered works or moments;
+- what the visitor noticed;
+- what changed their mind;
+- one unresolved question;
+- sources and verification status.
+
+Preserve the visitor's voice. Do not fabricate emotions, visited objects, photographs, or conclusions.
+
+## Venue Starter Packs
+
+The package includes stable orientation for six frequently requested venues:
+
+- Palace Museum / 故宫博物院
+- National Museum of China / 中国国家博物馆
+- Shanghai Museum / 上海博物馆
+- Nanjing Museum / 南京博物院
+- Shaanxi History Museum / 陕西历史博物馆
+- Suzhou Museum / 苏州博物馆
+
+These packs describe collection strengths, route heuristics, and facts that must be rechecked. They do not contain live schedules.
+
+## Output Labels
+
+Use these labels consistently:
+
+- `已核实` / `Verified`
+- `用户提供` / `User-provided`
+- `解释` / `Interpretation`
+- `待核实` / `Unverified`
+- `已过期` / `Outdated`
+
+For every current public fact, provide the source URL and access date.
+
+## Completion Standard
+
+- The requested visit stage is clear and completed.
+- A plan fits the stated time instead of listing everything.
+- Current logistics are verified from the relevant venue or organizer.
+- On-site identification remains tentative when evidence is incomplete.
+- Facts and interpretation are distinguishable.
+- No booking, posting, file creation, or external state change occurs without an explicit request.

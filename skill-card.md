@@ -1,57 +1,41 @@
-## Description:
+## Description
 
-Museum Explorer helps agents plan museum visits, guide on-site exhibit exploration, and produce post-visit journals with source-checked curation cards, checklists, and stamp-style artifacts.
+Museum Visit Planner & Guide helps visitors plan a named museum or exhibition with verified logistics and 90/180-minute routes, understand exhibits on site, and preserve a completed visit as a sourced memory.
 
-This skill is ready for commercial/non-commercial use.
+## Publisher
 
-## Publisher:
+[bonniegeng-max](https://clawhub.ai/bonniegeng-max)
 
-[bonniegeng-max](https://clawhub.ai/user/bonniegeng-max)
-
-### License/Terms of Use:
+## License
 
 MIT-0
 
-## Use Case:
+## Use Cases
 
-External users and agents use this skill to prepare for exhibitions, capture on-site exhibit notes, and turn the visit into a reusable local journal. It is suited for museum and gallery trip planning where source checks, date-sensitive exhibition details, and local artifact generation matter.
+- Plan a first visit around a realistic time budget.
+- Choose between current exhibitions using verified venue information.
+- Adapt a route for children, accessibility needs, low energy, or a returning visitor.
+- Explain a visible object or label in a concise on-site format.
+- Organize completed visit notes without inventing what the visitor saw or felt.
 
-### Deployment Geography for Use:
+## Included Assets
 
-Global
+- A fixed Museum Visit Brief.
+- A post-visit memory template.
+- Stable starter orientation for six frequently requested Chinese museums.
+- A completed historical example.
 
-## Known Risks and Mitigations:
+## Boundaries
 
-Risk: Generated journal HTML may load a font stylesheet from jsDelivr, so artifacts are not fully offline or fully private when opened in a network-enabled browser.
+- Current facts are checked against relevant official public sources and dated.
+- Starter packs do not contain live schedules.
+- Uncertain identification remains tentative.
+- No login, ticket purchase, reservation, form submission, or automatic file writing.
 
-Mitigation: Users who need offline or private artifacts should remove or block the remote font import before opening generated journals.
+## Output
 
-Risk: The skill can update local session, journal, stamp, and exhibition index files as part of its workflow.
+Markdown visit briefs, on-site explanations, comparison guidance, and visit memories.
 
-Mitigation: Review proposed writes and data-index change summaries before allowing updates, and keep writes within the documented local paths.
+## Version
 
-## Reference(s):
-
-- [ClawHub skill page](https://clawhub.ai/bonniegeng-max/skills/museum-explorer)
-- [Source verification guide](artifact/references/source-verification.md)
-- [Data sources guide](artifact/references/data-sources.md)
-- [Exhibits schema](artifact/references/exhibits.schema.json)
-- [Stamp design guide](artifact/references/stamp-design-guide.md)
-
-## Skill Output:
-
-**Output Type(s):** [text, markdown, code, configuration, guidance]
-
-**Output Format:** [Markdown, HTML journal data, SVG stamp assets, JSON exhibition records, and concise conversational guidance]
-
-**Output Parameters:** [1D]
-
-**Other Properties Related to Output:** [Produces local visit artifacts under the documented journal and data paths; generated HTML may reference a third-party font stylesheet unless users remove or block it.]
-
-## Skill Version(s):
-
-1.6.4 (source: server release evidence and ClawHub Meta)
-
-## Ethical Considerations:
-
-Users should evaluate whether this skill is appropriate for their environment, review any generated or modified files before relying on them, and apply their organization's safety, security, and compliance requirements before deployment.
+2.0.0

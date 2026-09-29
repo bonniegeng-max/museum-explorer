@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.1 — 2026-09-29
+
+Release-metadata fix only. No file content or behavior change.
+
+- Restored the ClawHub display name to `Museum Visit Planner & Guide`. Publishing 2.1.0 without `--name` caused ClawHub to fall back to the raw slug.
+- Release note: **always publish with `--name "Museum Visit Planner & Guide"`** — `clawhub publish --name "Museum Visit Planner & Guide" --slug museum-explorer --version <v>`.
+
 ## 2.1.0 — 2026-09-29
 
 - Added a seventh venue starter pack: Jingdezhen China Ceramics Museum / 景德镇中国陶瓷博物馆 — a specialist ceramics museum, added as a different route pattern from the six general encyclopaedic collections (single-object-driven visit, vertical floors 4–7, guarded queued viewing at the viral piece, and a disambiguation note against similarly named Jingdezhen ceramic museums).

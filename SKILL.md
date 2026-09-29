@@ -1,6 +1,6 @@
 ---
 name: museum-explorer
-version: 2.1.0
+version: 2.1.1
 description: Plan a specific museum or exhibition visit with verified logistics and 90/180-minute routes, get concise on-site exhibit explanations, or turn a completed visit into a sourced memory note. Also advises on how to share what you saw within copyright, photo, and venue rules. Use for a named venue, exhibition, artwork, or completed museum visit. Does not generate images or stickers, and does not publish.
 allowed-tools: WebSearch, WebFetch, Read
 ---

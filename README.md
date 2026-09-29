@@ -28,7 +28,8 @@ Turn my notes from today's exhibition into a concise visit memory.
 
 - [`templates/visit-brief.md`](templates/visit-brief.md): logistics, route, highlights, adaptations, and source status.
 - [`templates/visit-memory.md`](templates/visit-memory.md): a concise post-visit reflection structure.
-- [`references/venue-starter-packs.md`](references/venue-starter-packs.md): stable orientation for six frequently requested Chinese museums.
+- [`references/venue-starter-packs.md`](references/venue-starter-packs.md): stable orientation for seven frequently requested Chinese museums.
+- [`references/shareable-visit-content.md`](references/shareable-visit-content.md): advisory guidance on turning a visit into postable content — the object / photograph / venue / museum-IP rights split, and when to use original artwork instead of a photo.
 - [`examples/visit-brief-example.md`](examples/visit-brief-example.md): a completed historical example that is clearly separated from current visitor information.
 
 ## Evidence boundary

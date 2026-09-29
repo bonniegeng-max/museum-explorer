@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0 — 2026-09-29
+
+- Added a seventh venue starter pack: Jingdezhen China Ceramics Museum / 景德镇中国陶瓷博物馆 — a specialist ceramics museum, added as a different route pattern from the six general encyclopaedic collections (single-object-driven visit, vertical floors 4–7, guarded queued viewing at the viral piece, and a disambiguation note against similarly named Jingdezhen ceramic museums).
+- Added `references/shareable-visit-content.md`: advisory-only guidance on post-visit sharing, covering the separate rights in an object, a photograph of it, the venue's photography rules, and a museum's own IP, plus a risk ladder from personal use to commercial listing.
+- SKILL.md: new optional "Shareable Content" section with an explicit handoff boundary — this skill explains and advises, a dedicated image skill produces the artwork, and this skill never publishes.
+- Description and "When to Use" extended to cover post-visit sharing questions; explicitly states the skill does not generate images or publish.
+- No change to the three modes (Plan / Guide / Remember) or to existing venue packs.
+
 ## 2.0.1 — 2026-09-16
 
 - Added an explicit instruction to follow the language of the user's current request.

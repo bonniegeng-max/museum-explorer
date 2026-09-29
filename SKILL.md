@@ -1,7 +1,7 @@
 ---
 name: museum-explorer
-version: 2.0.1
-description: Plan a specific museum or exhibition visit with verified logistics and 90/180-minute routes, get concise on-site exhibit explanations, or turn a completed visit into a sourced memory note. Use for a named venue, exhibition, artwork, or completed museum visit.
+version: 2.1.0
+description: Plan a specific museum or exhibition visit with verified logistics and 90/180-minute routes, get concise on-site exhibit explanations, or turn a completed visit into a sourced memory note. Also advises on how to share what you saw within copyright, photo, and venue rules. Use for a named venue, exhibition, artwork, or completed museum visit. Does not generate images or stickers, and does not publish.
 allowed-tools: WebSearch, WebFetch, Read
 ---
 
@@ -31,7 +31,8 @@ Invoke when the user explicitly asks about:
 - choosing between current exhibitions;
 - planning a route, priorities, timing, breaks, or accessibility;
 - understanding something they are looking at inside a venue;
-- organizing a completed museum visit into notes or a memory page.
+- organizing a completed museum visit into notes or a memory page;
+- asking how to share what they saw — captions, a post, or a sticker idea — without stepping on photo or venue rights.
 
 Examples:
 
@@ -141,7 +142,7 @@ Preserve the visitor's voice. Do not fabricate emotions, visited objects, photog
 
 ## Venue Starter Packs
 
-The package includes stable orientation for six frequently requested venues:
+The package includes stable orientation for seven frequently requested venues:
 
 - Palace Museum / 故宫博物院
 - National Museum of China / 中国国家博物馆
@@ -149,8 +150,15 @@ The package includes stable orientation for six frequently requested venues:
 - Nanjing Museum / 南京博物院
 - Shaanxi History Museum / 陕西历史博物馆
 - Suzhou Museum / 苏州博物馆
+- Jingdezhen China Ceramics Museum / 景德镇中国陶瓷博物馆 (a specialist ceramics museum, useful as a single-object-driven route pattern rather than a general encyclopaedic collection)
 
 These packs describe collection strengths, route heuristics, and facts that must be rechecked. They do not contain live schedules.
+
+## Shareable Content (optional, advisory only)
+
+When the user asks how to turn a visit into something they can post — captions, a short note, or a sticker/表情包 idea — consult `references/shareable-visit-content.md`.
+
+This is **advisory only**. Explain the rights position (object vs. photograph vs. venue rules vs. museum IP), recommend the original-artwork path where third-party photos would be a problem, and then hand off to a dedicated image skill if artwork is actually needed. Do not generate images, produce stickers, or publish on the user's behalf.
 
 ## Output Labels
 

@@ -44,6 +44,16 @@ These notes provide stable orientation, not live visitor information. Before giv
 - Route heuristic: treat the building and garden as part of the visit, leaving time for transitions and close looking.
 - Recheck: branch location, reservation policy, current exhibitions, entrance route, and photography rules.
 
+## Jingdezhen China Ceramics Museum / 景德镇中国陶瓷博物馆
+
+- Official information: https://www.jdz.gov.cn/zjcd/mljdz/lylx/t932954.shtml (municipal government venue profile); reservation rules: https://wgxl.jdz.gov.cn/zwgk/fdzdgknr/zdly/ggwh/t1085885.shtml
+- Booking note: the museum's **only** official reservation channel is the WeChat mini-program 「畅游景德镇」; there is no public web booking page, and the venue states it has authorised no third-party ticket or proxy-booking services. Closed Mondays except statutory holidays.
+- Stable focus: China's first large museum devoted specifically to ceramics (formerly 景德镇陶瓷馆, reopened at the current site in 2015) — roughly 55,000 m² of grounds and 50,000+ objects, covering ceramic history and, notably, modern ceramic sculpture.
+- Signature draw: the 18 arhat figures by 曾龙升 (釉下加彩十八罗汉塑像, made in the 1930s–40s) — a single set of glazed-and-painted porcelain sculptures, now graded first-class cultural relics. Its 沉思罗汉 is the piece the public calls 「无语佛」/「无语菩萨」, and the museum's own government profile treats that meme as a known visitor draw; the figures were moved to a central position and now draw a queued, guarded viewing line. Expect crowding at that case, not a quiet corner.
+- Route heuristic: this is a vertical museum — the permanent display 「瓷业高峰是此都」occupies floors 4–7, so treat the building as a vertical spine rather than a loop. Choose either a dynastic-chronology route or a ceramic-sculpture route; if the visitor wants the famous piece, save the seventh-floor sculpture gallery for last as the payoff. Entry is by pedestrian gate (north or west), with a pre-check before security on floor 2.
+- Recheck: real-name reservation rules (5-day advance window, staggered slot release times), whether a Monday closure or holiday adjustment applies, the current floor and room of the 沉思罗汉 gallery (it has been relocated before), free guided-tour times, on-site photography rules, luggage storage, and exit routing (east exit for parking, west exit for ride-hailing).
+- Disambiguation: several different ceramic museums operate in Jingdezhen (陶瓷民俗博物馆 at 古窑民俗博览区, 十大瓷厂陶瓷博物馆, 陶瓷工业遗产博物馆 at 陶溪川). Confirm which collection the visitor means before building a route — "陶瓷博物馆" alone is ambiguous.
+
 ## Use Rules
 
 1. Never present these notes as a current exhibition list.

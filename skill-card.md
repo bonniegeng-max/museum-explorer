@@ -1,41 +1,55 @@
-## Description
+## Description:
 
-Museum Visit Planner & Guide helps visitors plan a named museum or exhibition with verified logistics and 90/180-minute routes, understand exhibits on site, and preserve a completed visit as a sourced memory.
+Helps visitors plan museum trips with verified logistics and timed routes, understand exhibits on site, preserve visit memories, and navigate sharing rights.
 
-## Publisher
+This skill is ready for commercial/non-commercial use.
 
-[bonniegeng-max](https://clawhub.ai/bonniegeng-max)
+## Publisher:
 
-## License
+[bonniegeng-max](https://clawhub.ai/user/bonniegeng-max)
+
+### License/Terms of Use:
 
 MIT-0
 
-## Use Cases
+## Use Case:
 
-- Plan a first visit around a realistic time budget.
-- Choose between current exhibitions using verified venue information.
-- Adapt a route for children, accessibility needs, low energy, or a returning visitor.
-- Explain a visible object or label in a concise on-site format.
-- Organize completed visit notes without inventing what the visitor saw or felt.
+Museum visitors use this skill to plan a named exhibition or venue visit, get concise explanations while there, and turn their notes into a sourced memory. It can also advise on captions and sharing rights without creating images or publishing content.
 
-## Included Assets
+### Deployment Geography for Use:
 
-- A fixed Museum Visit Brief.
-- A post-visit memory template.
-- Stable starter orientation for six frequently requested Chinese museums.
-- A completed historical example.
+Global
 
-## Boundaries
+## Known Risks and Mitigations:
 
-- Current facts are checked against relevant official public sources and dated.
-- Starter packs do not contain live schedules.
-- Uncertain identification remains tentative.
-- No login, ticket purchase, reservation, form submission, or automatic file writing.
+Risk: Hours, exhibitions, reservation rules, and access details may change before a visit.
 
-## Output
+Mitigation: Check the museum's official notices before travel and date the information used.
 
-Markdown visit briefs, on-site explanations, comparison guidance, and visit memories.
+Risk: Sharing photos or museum imagery may conflict with photography rules or reuse rights.
 
-## Version
+Mitigation: Check venue rules and rights to the object, photo, and museum branding before posting or commercial reuse.
 
-2.0.1
+## Reference(s):
+
+- [ClawHub skill release](https://clawhub.ai/bonniegeng-max/skills/museum-explorer)
+- [Venue starter packs](references/venue-starter-packs.md)
+- [Shareable visit content guidance](references/shareable-visit-content.md)
+
+## Skill Output:
+
+**Output Type(s):** [Text, Markdown, Guidance]
+
+**Output Format:** [Conversational text or structured Markdown visit briefs and memories]
+
+**Output Parameters:** [1D]
+
+**Other Properties Related to Output:** [Current venue facts include source links and access dates; no booking, posting, or image generation.]
+
+## Skill Version(s):
+
+2.1.2 (source: server-resolved ClawHub release; bundled files identify 2.1.1)
+
+## Ethical Considerations:
+
+Users should evaluate whether this skill is appropriate for their environment, review any generated or modified files before relying on them, and apply their organization's safety, security, and compliance requirements before deployment.

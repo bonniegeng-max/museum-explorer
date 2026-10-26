@@ -6,9 +6,10 @@ const path = require("node:path");
 const root = path.resolve(__dirname, "..");
 const skill = fs.readFileSync(path.join(root, "SKILL.md"), "utf8");
 
-test("release metadata is v2.0.1", () => {
+test("release metadata matches _meta.json", () => {
+  const meta = JSON.parse(fs.readFileSync(path.join(root, "_meta.json"), "utf8"));
   assert.match(skill, /name: museum-explorer/);
-  assert.match(skill, /version: 2\.0\.1/);
+  assert.match(skill, new RegExp(`version: ${String(meta.version).replace(/\./g, "\\.")}`));
   assert.match(skill, /Museum Visit Planner & Guide/);
 });
 
@@ -25,7 +26,7 @@ test("route products are explicit", () => {
   assert.ok(fs.existsSync(path.join(root, "templates", "visit-brief.md")));
 });
 
-test("six venue starter packs exist without live schedules", () => {
+test("venue starter packs exist without live schedules", () => {
   const packs = fs.readFileSync(
     path.join(root, "references", "venue-starter-packs.md"),
     "utf8"
@@ -36,7 +37,9 @@ test("six venue starter packs exist without live schedules", () => {
     "Shanghai Museum",
     "Nanjing Museum",
     "Shaanxi History Museum",
-    "Suzhou Museum"
+    "Suzhou Museum",
+    "Tianjin Museum",
+    "Capital Museum"
   ]) {
     assert.ok(packs.includes(name), `missing ${name}`);
   }

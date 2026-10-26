@@ -54,6 +54,24 @@ These notes provide stable orientation, not live visitor information. Before giv
 - Recheck: real-name reservation rules (5-day advance window, staggered slot release times), whether a Monday closure or holiday adjustment applies, the current floor and room of the 沉思罗汉 gallery (it has been relocated before), free guided-tour times, on-site photography rules, luggage storage, and exit routing (east exit for parking, west exit for ride-hailing).
 - Disambiguation: several different ceramic museums operate in Jingdezhen (陶瓷民俗博物馆 at 古窑民俗博览区, 十大瓷厂陶瓷博物馆, 陶瓷工业遗产博物馆 at 陶溪川). Confirm which collection the visitor means before building a route — "陶瓷博物馆" alone is ambiguous.
 
+## Tianjin Museum / 天津博物馆
+
+- Official site: https://www.tjbwg.com/
+- Stable focus: Tianjin regional history, ancient Chinese ceramics, jade, painting and calligraphy, bronze, and the city's modern treaty-port era.
+- Signature draw: the founder collection's famous pieces often used as route anchors — 太保鼎 (Western Zhou bronze), 范宽《雪景寒林图》(Song landscape painting, shown on rotation), 西周夔纹铜禁. Confirm on-site which are currently displayed before promising them.
+- Route heuristic: pick one spine — either "耀世奇珍"-style collection highlights or the Tianjin history narrative — rather than trying both floors of permanent display in one short visit.
+- Recheck: real-name reservation rules and daily quota, closed-day policy (historically Mondays), temporary exhibition halls, which building/entrance is in use, and photography rules for special exhibitions.
+- Disambiguation: 天津博物馆 (文化中心) is distinct from 天津美术馆 and 天津自然博物馆, which share the same cultural-center block; confirm which venue the visitor means.
+
+## Capital Museum / 首都博物馆
+
+- Official site: https://www.capitalmuseum.org.cn/
+- Stable focus: Beijing city history (古都北京 narrative), old-Beijing folk customs (民俗展厅), bronze and porcelain collections, and large temporary exhibitions on regional culture.
+- Signature draw: 班簋 (Western Zhou bronze with a famous rediscovery story) is a canonical highlight of the bronze collection.
+- Route heuristic: a 90-minute visit works best as one permanent narrative (city history or folk customs) plus one temporary exhibition; the building is deep but horizontally laid out, so budget walking time between wings.
+- Recheck: whether any permanent halls are closed for renovation (the venue has had phased hall closures), reservation identity rules and advance-booking window, temporary exhibition ticketing, and entrance routing.
+- Disambiguation: 首都博物馆 is distinct from 中国国家博物馆 (Tiananmen Square) and 北京博物馆/北京市档案馆; visitors often confuse the first two — confirm which one the plan is for.
+
 ## Use Rules
 
 1. Never present these notes as a current exhibition list.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.1 — 2026-10-27
+
+Front-screen copy only. No behavior, file, or dependency change.
+
+- `description` reordered: the Chinese block now comes first, so the search-result line reads in Chinese before English. Motivation: on ClawHub the line under the title is this field; a Chinese-first reader sees an English paragraph and leaves before opening the skill.
+- Every existing trigger was preserved verbatim, including the `Use when …` list and the nine named venues. The bundled bilingual rewrite from the 2026-10-27 batch dropped those triggers; this keeps them.
+
 ## 2.1.1 — 2026-09-29
 
 Release-metadata fix only. No file content or behavior change.
